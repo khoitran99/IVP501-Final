@@ -5,7 +5,7 @@ Handles attendance data logging, CSV management, and attendance records
 
 import csv
 import os
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 from typing import List, Dict, Optional, Tuple
 from pathlib import Path
 import pandas as pd
@@ -222,7 +222,7 @@ class AttendanceLogger:
             while current_date <= end_date:
                 daily_records = self.get_daily_attendance(current_date)
                 all_records.extend(daily_records)
-                current_date = current_date.replace(day=current_date.day + 1)
+                current_date = current_date + timedelta(days=1)
             
             self.logger.info(f"Retrieved {len(all_records)} attendance records from {start_date} to {end_date}")
             return all_records
@@ -248,7 +248,7 @@ class AttendanceLogger:
                 end_date = date.today()
             
             if start_date is None:
-                start_date = date.today().replace(day=date.today().day - 30)
+                start_date = date.today() - timedelta(days=30)
             
             all_records = self.get_attendance_range(start_date, end_date)
             user_records = [record for record in all_records if record['user_id'] == user_id]
@@ -277,7 +277,7 @@ class AttendanceLogger:
                 end_date = date.today()
             
             if start_date is None:
-                start_date = date.today().replace(day=date.today().day - 30)
+                start_date = date.today() - timedelta(days=30)
             
             # Get attendance records
             records = self.get_attendance_range(start_date, end_date)
@@ -315,7 +315,7 @@ class AttendanceLogger:
                 end_date = date.today()
             
             if start_date is None:
-                start_date = date.today().replace(day=date.today().day - 30)
+                start_date = date.today() - timedelta(days=30)
             
             records = self.get_attendance_range(start_date, end_date)
             
@@ -363,7 +363,7 @@ class AttendanceLogger:
             Number of files deleted
         """
         try:
-            cutoff_date = date.today().replace(day=date.today().day - days_to_keep)
+            cutoff_date = date.today() - timedelta(days=days_to_keep)
             deleted_count = 0
             
             for log_file in self.base_directory.glob("*.csv"):

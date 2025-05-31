@@ -666,3 +666,1263 @@
 2025-05-31 14:50:13,596 - FaceAttend.CameraManager - INFO - Camera resources released
 2025-05-31 14:50:13,596 - FaceAttend.CameraManager - INFO - Releasing camera resources
 2025-05-31 14:50:13,596 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 14:57:27,507 - __main__ - INFO - Application closing
+2025-05-31 14:57:27,509 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 14:57:27,509 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 14:57:27,509 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 14:57:27,509 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 14:57:27,520 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 14:57:27,545 - __main__ - INFO - Application shutdown
+2025-05-31 14:57:38,396 - __main__ - INFO - Starting FaceAttend Application
+2025-05-31 14:57:38,396 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 14:57:38,397 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 14:57:38,397 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 14:57:38,670 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 14:57:38,671 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 14:57:38,671 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 14:57:38,671 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 14:57:38,681 - FaceAttend.LBPHRecognizer - INFO - Loaded existing model with 4 users
+2025-05-31 14:57:38,681 - FaceAttend.LBPHRecognizer - INFO - LBPHRecognizer initialized with confidence threshold: 100.0
+2025-05-31 14:57:38,681 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 14:57:38,697 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 14:57:38,697 - __main__ - INFO - Application started successfully
+2025-05-31 14:57:43,947 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 14:57:43,986 - FaceAttend.FaceDetector - INFO - Haar Cascade classifiers loaded successfully
+2025-05-31 14:57:43,986 - FaceAttend.FaceDetector - INFO - FaceDetector initialized with scale_factor=1.1, min_neighbors=5, min_size=(30, 30)
+2025-05-31 14:57:43,986 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 14:57:43,987 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 14:57:43,987 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 14:57:43,987 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 14:57:43,997 - FaceAttend.LBPHRecognizer - INFO - Loaded existing model with 4 users
+2025-05-31 14:57:43,997 - FaceAttend.LBPHRecognizer - INFO - LBPHRecognizer initialized with confidence threshold: 80.0
+2025-05-31 14:57:43,997 - FaceAttend.AttendanceLogger - INFO - Attendance logs directory initialized
+2025-05-31 14:57:43,997 - FaceAttend.AttendanceLogger - INFO - AttendanceLogger initialized with base directory: attendance_logs
+2025-05-31 14:57:43,997 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 14:57:43,997 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 14:57:43,997 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 14:57:43,997 - FaceAttend.RealtimeRecognizer - INFO - RealtimeRecognizer initialized with confidence threshold: 80.0
+2025-05-31 14:57:43,997 - FaceAttend.AttendanceWindow - INFO - AttendanceWindow initialized
+2025-05-31 14:57:44,020 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 80.0
+2025-05-31 14:57:44,020 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 80.0
+2025-05-31 14:57:44,020 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 14:57:44,023 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 14:57:44,027 - FaceAttend.AttendanceWindow - INFO - Attendance window shown
+2025-05-31 14:57:44,027 - __main__ - INFO - Attendance capture window opened
+2025-05-31 14:57:45,670 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 14:57:47,484 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 14:57:47,484 - FaceAttend.RealtimeRecognizer - INFO - Recognition loop started
+2025-05-31 14:57:47,485 - FaceAttend.RealtimeRecognizer - INFO - Real-time recognition started successfully
+2025-05-31 14:57:47,485 - FaceAttend.CameraWidget - INFO - Starting camera stream
+2025-05-31 14:57:47,485 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 14:57:48,038 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 14:57:48,038 - FaceAttend.CameraWidget - INFO - Camera stream started successfully
+2025-05-31 14:57:48,039 - FaceAttend.AttendanceWindow - INFO - Recognition started
+2025-05-31 14:57:54,864 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 82.183908045977
+2025-05-31 14:57:54,864 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 82.183908045977
+2025-05-31 14:57:54,972 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 82.183908045977
+2025-05-31 14:57:54,972 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 82.183908045977
+2025-05-31 14:57:55,125 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 82.75862068965517
+2025-05-31 14:57:55,125 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 82.75862068965517
+2025-05-31 14:57:56,173 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 83.90804597701148
+2025-05-31 14:57:56,173 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 83.90804597701148
+2025-05-31 14:57:56,201 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 84.48275862068965
+2025-05-31 14:57:56,201 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 84.48275862068965
+2025-05-31 14:57:56,223 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 85.63218390804599
+2025-05-31 14:57:56,223 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 85.63218390804599
+2025-05-31 14:57:56,248 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 86.7816091954023
+2025-05-31 14:57:56,248 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 86.7816091954023
+2025-05-31 14:57:56,276 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 87.35632183908046
+2025-05-31 14:57:56,276 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 87.35632183908046
+2025-05-31 14:57:56,297 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 87.35632183908046
+2025-05-31 14:57:56,297 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 87.35632183908046
+2025-05-31 14:57:57,467 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 87.93103448275862
+2025-05-31 14:57:57,468 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 87.93103448275862
+2025-05-31 14:57:57,489 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 88.50574712643677
+2025-05-31 14:57:57,490 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 88.50574712643677
+2025-05-31 14:57:57,515 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 90.22988505747126
+2025-05-31 14:57:57,515 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 90.22988505747126
+2025-05-31 14:57:57,538 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 90.22988505747126
+2025-05-31 14:57:57,538 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 90.22988505747126
+2025-05-31 14:57:57,564 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 90.80459770114942
+2025-05-31 14:57:57,564 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 90.80459770114942
+2025-05-31 14:57:57,641 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 91.95402298850576
+2025-05-31 14:57:57,641 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 91.95402298850576
+2025-05-31 14:58:00,683 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 91.95402298850576
+2025-05-31 14:58:00,683 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 91.95402298850576
+2025-05-31 14:58:00,708 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 92.5287356321839
+2025-05-31 14:58:00,708 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 92.5287356321839
+2025-05-31 14:58:00,731 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 93.67816091954023
+2025-05-31 14:58:00,731 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 93.67816091954023
+2025-05-31 14:58:00,757 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 94.2528735632184
+2025-05-31 14:58:00,757 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 94.2528735632184
+2025-05-31 14:58:00,780 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 95.40229885057471
+2025-05-31 14:58:00,780 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 95.40229885057471
+2025-05-31 14:58:12,387 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 95.97701149425288
+2025-05-31 14:58:12,387 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 95.97701149425288
+2025-05-31 14:58:12,495 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 96.55172413793103
+2025-05-31 14:58:12,495 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 96.55172413793103
+2025-05-31 14:58:13,541 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 97.12643678160919
+2025-05-31 14:58:13,541 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 97.12643678160919
+2025-05-31 14:58:13,562 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 95.97701149425288
+2025-05-31 14:58:13,562 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 95.97701149425288
+2025-05-31 14:58:13,586 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 98.27586206896552
+2025-05-31 14:58:13,586 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 98.27586206896552
+2025-05-31 14:58:14,270 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 98.85057471264368
+2025-05-31 14:58:14,270 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 98.85057471264368
+2025-05-31 14:58:14,295 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 99.42528735632183
+2025-05-31 14:58:14,295 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 99.42528735632183
+2025-05-31 14:58:14,341 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 100.57471264367817
+2025-05-31 14:58:14,341 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 100.57471264367817
+2025-05-31 14:58:14,369 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 104.59770114942529
+2025-05-31 14:58:14,369 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 104.59770114942529
+2025-05-31 14:58:19,676 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 105.17241379310344
+2025-05-31 14:58:19,676 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 105.17241379310344
+2025-05-31 14:58:19,678 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 105.17241379310344
+2025-05-31 14:58:19,678 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 105.17241379310344
+2025-05-31 14:58:19,702 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 106.89655172413794
+2025-05-31 14:58:19,702 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 106.89655172413794
+2025-05-31 14:58:19,731 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 109.77011494252875
+2025-05-31 14:58:19,731 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 109.77011494252875
+2025-05-31 14:58:19,732 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 110.34482758620689
+2025-05-31 14:58:19,732 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 110.34482758620689
+2025-05-31 14:58:19,759 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 110.34482758620689
+2025-05-31 14:58:19,759 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 110.34482758620689
+2025-05-31 14:58:19,782 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 111.49425287356321
+2025-05-31 14:58:19,782 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 111.49425287356321
+2025-05-31 14:58:19,810 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 110.91954022988506
+2025-05-31 14:58:19,810 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 110.91954022988506
+2025-05-31 14:58:19,831 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 113.2183908045977
+2025-05-31 14:58:19,831 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 113.2183908045977
+2025-05-31 14:58:21,024 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 113.79310344827587
+2025-05-31 14:58:21,024 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 113.79310344827587
+2025-05-31 14:58:21,049 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 114.9425287356322
+2025-05-31 14:58:21,049 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 114.9425287356322
+2025-05-31 14:58:21,075 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 117.24137931034483
+2025-05-31 14:58:21,075 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 117.24137931034483
+2025-05-31 14:58:21,098 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 116.66666666666666
+2025-05-31 14:58:21,098 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 116.66666666666666
+2025-05-31 14:58:21,728 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 117.81609195402298
+2025-05-31 14:58:21,728 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 117.81609195402298
+2025-05-31 14:58:21,752 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 118.39080459770115
+2025-05-31 14:58:21,752 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 118.39080459770115
+2025-05-31 14:58:21,778 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 120.6896551724138
+2025-05-31 14:58:21,778 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 120.6896551724138
+2025-05-31 14:58:21,803 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 122.98850574712644
+2025-05-31 14:58:21,803 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 122.98850574712644
+2025-05-31 14:58:21,830 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 125.28735632183908
+2025-05-31 14:58:21,830 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 125.28735632183908
+2025-05-31 14:58:21,852 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 126.4367816091954
+2025-05-31 14:58:21,852 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 126.4367816091954
+2025-05-31 14:58:21,878 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 127.01149425287356
+2025-05-31 14:58:21,878 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 127.01149425287356
+2025-05-31 14:58:27,103 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 127.01149425287356
+2025-05-31 14:58:27,103 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 127.01149425287356
+2025-05-31 14:58:27,127 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 128.16091954022988
+2025-05-31 14:58:27,127 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 128.16091954022988
+2025-05-31 14:58:27,155 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 129.31034482758622
+2025-05-31 14:58:27,155 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 129.31034482758622
+2025-05-31 14:58:27,177 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 129.88505747126436
+2025-05-31 14:58:27,177 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 129.88505747126436
+2025-05-31 14:58:27,394 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 127.79
+2025-05-31 14:58:27,394 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 127.79)
+2025-05-31 14:58:27,564 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 130.45977011494253
+2025-05-31 14:58:27,565 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 130.45977011494253
+2025-05-31 14:58:27,590 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 131.60919540229884
+2025-05-31 14:58:27,590 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 131.60919540229884
+2025-05-31 14:58:27,614 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 132.18390804597703
+2025-05-31 14:58:27,614 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 132.18390804597703
+2025-05-31 14:58:27,642 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 133.9080459770115
+2025-05-31 14:58:27,642 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 133.9080459770115
+2025-05-31 14:58:27,664 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 135.0574712643678
+2025-05-31 14:58:27,664 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 135.0574712643678
+2025-05-31 14:58:28,444 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 127.34
+2025-05-31 14:58:28,446 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 127.34)
+2025-05-31 14:58:28,959 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 134.48275862068965
+2025-05-31 14:58:28,959 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 134.48275862068965
+2025-05-31 14:58:28,981 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 138.5057471264368
+2025-05-31 14:58:28,981 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 138.5057471264368
+2025-05-31 14:58:29,007 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 139.6551724137931
+2025-05-31 14:58:29,007 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 139.6551724137931
+2025-05-31 14:58:29,033 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 140.22988505747128
+2025-05-31 14:58:29,033 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 140.22988505747128
+2025-05-31 14:58:29,464 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 128.07
+2025-05-31 14:58:29,464 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 128.07)
+2025-05-31 14:58:30,024 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 140.22988505747128
+2025-05-31 14:58:30,024 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 140.22988505747128
+2025-05-31 14:58:30,046 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 141.3793103448276
+2025-05-31 14:58:30,046 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 141.3793103448276
+2025-05-31 14:58:30,049 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 141.3793103448276
+2025-05-31 14:58:30,049 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 141.3793103448276
+2025-05-31 14:58:30,073 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 142.5287356321839
+2025-05-31 14:58:30,073 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 142.5287356321839
+2025-05-31 14:58:30,074 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 143.67816091954023
+2025-05-31 14:58:30,074 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 143.67816091954023
+2025-05-31 14:58:30,098 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 145.4022988505747
+2025-05-31 14:58:30,099 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 145.4022988505747
+2025-05-31 14:58:30,100 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 145.97701149425288
+2025-05-31 14:58:30,100 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 145.97701149425288
+2025-05-31 14:58:30,126 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 147.70114942528735
+2025-05-31 14:58:30,126 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 147.70114942528735
+2025-05-31 14:58:30,150 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 147.1264367816092
+2025-05-31 14:58:30,150 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 147.1264367816092
+2025-05-31 14:58:30,522 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 126.56
+2025-05-31 14:58:30,523 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 126.56)
+2025-05-31 14:58:30,544 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 147.70114942528735
+2025-05-31 14:58:30,544 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 147.70114942528735
+2025-05-31 14:58:30,569 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:30,569 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:30,592 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:30,593 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:30,615 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:30,615 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:30,991 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:30,991 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,017 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,017 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,045 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,045 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,069 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,070 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,072 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,072 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,094 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,094 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,095 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,095 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,122 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,123 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,144 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,144 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,145 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,145 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,170 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,170 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,194 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,194 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,222 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,222 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,244 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,244 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 14:58:31,610 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 130.25
+2025-05-31 14:58:31,611 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 130.25)
+2025-05-31 14:58:33,674 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 136.12
+2025-05-31 14:58:33,674 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 136.12)
+2025-05-31 14:58:35,743 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 127.21
+2025-05-31 14:58:35,744 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 127.21)
+2025-05-31 14:58:36,810 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 127.96
+2025-05-31 14:58:36,811 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 127.96)
+2025-05-31 14:58:37,823 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 124.74
+2025-05-31 14:58:37,823 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 124.74)
+2025-05-31 14:58:38,878 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 126.82
+2025-05-31 14:58:38,878 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 126.82)
+2025-05-31 14:58:39,855 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 126.69
+2025-05-31 14:58:39,855 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 126.69)
+2025-05-31 14:58:40,851 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 123.96
+2025-05-31 14:58:40,851 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 123.96)
+2025-05-31 14:58:41,946 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 124.78
+2025-05-31 14:58:41,946 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 124.78)
+2025-05-31 14:58:42,969 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 121.52
+2025-05-31 14:58:42,974 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 121.52)
+2025-05-31 14:58:43,389 - FaceAttend.RealtimeRecognizer - INFO - Recognition loop ended
+2025-05-31 14:58:43,389 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 14:58:43,392 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 14:58:43,392 - FaceAttend.RealtimeRecognizer - INFO - Real-time recognition stopped
+2025-05-31 14:58:43,392 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 14:58:45,394 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 14:58:45,512 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 14:58:45,515 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 14:58:45,516 - FaceAttend.AttendanceWindow - INFO - Recognition stopped
+2025-05-31 14:58:45,525 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 14:58:45,525 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 14:58:47,526 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 14:58:47,527 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 14:58:47,538 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 14:58:47,548 - FaceAttend.AttendanceWindow - INFO - Attendance window closed
+2025-05-31 14:58:57,821 - __main__ - INFO - Application closing
+2025-05-31 14:58:57,822 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 14:58:57,823 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 14:58:57,823 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 14:58:57,823 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 14:58:57,829 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 14:58:57,835 - __main__ - INFO - Application shutdown
+2025-05-31 14:58:57,862 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 14:58:57,862 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 14:58:57,862 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 14:58:57,862 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 14:58:57,862 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 14:58:57,862 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:01:07,915 - __main__ - INFO - Starting FaceAttend Application
+2025-05-31 15:01:07,915 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:01:07,916 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:01:07,916 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:01:08,270 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:01:08,270 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:01:08,270 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:01:08,270 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 15:01:08,282 - FaceAttend.LBPHRecognizer - INFO - Loaded existing model with 4 users
+2025-05-31 15:01:08,282 - FaceAttend.LBPHRecognizer - INFO - LBPHRecognizer initialized with confidence threshold: 100.0
+2025-05-31 15:01:08,283 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 15:01:08,301 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 15:01:08,301 - __main__ - INFO - Application started successfully
+2025-05-31 15:01:12,037 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 15:01:12,065 - FaceAttend.FaceDetector - INFO - Haar Cascade classifiers loaded successfully
+2025-05-31 15:01:12,065 - FaceAttend.FaceDetector - INFO - FaceDetector initialized with scale_factor=1.1, min_neighbors=5, min_size=(30, 30)
+2025-05-31 15:01:12,065 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:01:12,065 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:01:12,065 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:01:12,065 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 15:01:12,073 - FaceAttend.LBPHRecognizer - INFO - Loaded existing model with 4 users
+2025-05-31 15:01:12,073 - FaceAttend.LBPHRecognizer - INFO - LBPHRecognizer initialized with confidence threshold: 80.0
+2025-05-31 15:01:12,073 - FaceAttend.AttendanceLogger - INFO - Attendance logs directory initialized
+2025-05-31 15:01:12,073 - FaceAttend.AttendanceLogger - INFO - AttendanceLogger initialized with base directory: attendance_logs
+2025-05-31 15:01:12,073 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:01:12,074 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:01:12,074 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:01:12,074 - FaceAttend.RealtimeRecognizer - INFO - RealtimeRecognizer initialized with confidence threshold: 80.0
+2025-05-31 15:01:12,074 - FaceAttend.AttendanceWindow - INFO - AttendanceWindow initialized
+2025-05-31 15:01:12,097 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 80.0
+2025-05-31 15:01:12,097 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 80.0
+2025-05-31 15:01:12,097 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 15:01:12,100 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 15:01:12,105 - FaceAttend.AttendanceWindow - INFO - Attendance window shown
+2025-05-31 15:01:12,105 - __main__ - INFO - Attendance capture window opened
+2025-05-31 15:01:13,993 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 15:01:15,842 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 15:01:15,842 - FaceAttend.RealtimeRecognizer - INFO - Recognition loop started
+2025-05-31 15:01:15,842 - FaceAttend.RealtimeRecognizer - INFO - Real-time recognition started successfully
+2025-05-31 15:01:15,842 - FaceAttend.CameraWidget - INFO - Starting camera stream
+2025-05-31 15:01:15,842 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 15:01:16,398 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 15:01:16,399 - FaceAttend.CameraWidget - INFO - Camera stream started successfully
+2025-05-31 15:01:16,399 - FaceAttend.AttendanceWindow - INFO - Recognition started
+2025-05-31 15:01:19,835 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 81.0344827586207
+2025-05-31 15:01:19,835 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 81.0344827586207
+2025-05-31 15:01:19,869 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 80.45977011494253
+2025-05-31 15:01:19,869 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 80.45977011494253
+2025-05-31 15:01:19,921 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 82.183908045977
+2025-05-31 15:01:19,921 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 82.183908045977
+2025-05-31 15:01:19,943 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 82.75862068965517
+2025-05-31 15:01:19,943 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 82.75862068965517
+2025-05-31 15:01:19,968 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 84.48275862068965
+2025-05-31 15:01:19,969 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 84.48275862068965
+2025-05-31 15:01:19,994 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 85.63218390804599
+2025-05-31 15:01:19,994 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 85.63218390804599
+2025-05-31 15:01:20,022 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 86.20689655172413
+2025-05-31 15:01:20,022 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 86.20689655172413
+2025-05-31 15:01:20,044 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 86.20689655172413
+2025-05-31 15:01:20,044 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 86.20689655172413
+2025-05-31 15:01:20,044 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 86.7816091954023
+2025-05-31 15:01:20,044 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 86.7816091954023
+2025-05-31 15:01:20,068 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 87.93103448275862
+2025-05-31 15:01:20,068 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 87.93103448275862
+2025-05-31 15:01:20,094 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 87.93103448275862
+2025-05-31 15:01:20,094 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 87.93103448275862
+2025-05-31 15:01:20,121 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 88.50574712643677
+2025-05-31 15:01:20,121 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 88.50574712643677
+2025-05-31 15:01:20,285 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 89.65517241379311
+2025-05-31 15:01:20,285 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 89.65517241379311
+2025-05-31 15:01:20,310 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 89.65517241379311
+2025-05-31 15:01:20,310 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 89.65517241379311
+2025-05-31 15:01:20,337 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 90.22988505747126
+2025-05-31 15:01:20,337 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 90.22988505747126
+2025-05-31 15:01:20,359 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 91.37931034482759
+2025-05-31 15:01:20,360 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 91.37931034482759
+2025-05-31 15:01:20,360 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 91.37931034482759
+2025-05-31 15:01:20,360 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 91.37931034482759
+2025-05-31 15:01:20,386 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 93.10344827586206
+2025-05-31 15:01:20,386 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 93.10344827586206
+2025-05-31 15:01:20,414 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 93.67816091954023
+2025-05-31 15:01:20,414 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 93.67816091954023
+2025-05-31 15:01:20,463 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 94.82758620689656
+2025-05-31 15:01:20,463 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 94.82758620689656
+2025-05-31 15:01:20,539 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 95.97701149425288
+2025-05-31 15:01:20,540 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 95.97701149425288
+2025-05-31 15:01:20,564 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 96.55172413793103
+2025-05-31 15:01:20,564 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 96.55172413793103
+2025-05-31 15:01:20,565 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 97.12643678160919
+2025-05-31 15:01:20,565 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 97.12643678160919
+2025-05-31 15:01:20,591 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 96.55172413793103
+2025-05-31 15:01:20,592 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 96.55172413793103
+2025-05-31 15:01:20,614 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 99.42528735632183
+2025-05-31 15:01:20,615 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 99.42528735632183
+2025-05-31 15:01:20,639 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 100.57471264367817
+2025-05-31 15:01:20,640 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 100.57471264367817
+2025-05-31 15:01:20,668 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 105.74712643678161
+2025-05-31 15:01:20,668 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 105.74712643678161
+2025-05-31 15:01:20,689 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 106.32183908045977
+2025-05-31 15:01:20,689 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 106.32183908045977
+2025-05-31 15:01:20,714 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 107.47126436781609
+2025-05-31 15:01:20,714 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 107.47126436781609
+2025-05-31 15:01:20,740 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 107.47126436781609
+2025-05-31 15:01:20,740 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 107.47126436781609
+2025-05-31 15:01:20,768 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 108.04597701149424
+2025-05-31 15:01:20,768 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 108.04597701149424
+2025-05-31 15:01:20,789 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 109.19540229885058
+2025-05-31 15:01:20,789 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 109.19540229885058
+2025-05-31 15:01:20,789 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 109.19540229885058
+2025-05-31 15:01:20,789 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 109.19540229885058
+2025-05-31 15:01:20,815 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 109.77011494252875
+2025-05-31 15:01:20,815 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 109.77011494252875
+2025-05-31 15:01:20,839 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 110.91954022988506
+2025-05-31 15:01:20,839 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 110.91954022988506
+2025-05-31 15:01:20,867 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 110.34482758620689
+2025-05-31 15:01:20,867 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 110.34482758620689
+2025-05-31 15:01:20,889 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 110.91954022988506
+2025-05-31 15:01:20,889 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 110.91954022988506
+2025-05-31 15:01:20,890 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 111.49425287356321
+2025-05-31 15:01:20,890 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 111.49425287356321
+2025-05-31 15:01:20,914 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 111.49425287356321
+2025-05-31 15:01:20,915 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 111.49425287356321
+2025-05-31 15:01:20,939 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 112.64367816091954
+2025-05-31 15:01:20,939 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 112.64367816091954
+2025-05-31 15:01:20,967 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 115.51724137931035
+2025-05-31 15:01:20,967 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 115.51724137931035
+2025-05-31 15:01:20,988 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 116.66666666666666
+2025-05-31 15:01:20,988 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 116.66666666666666
+2025-05-31 15:01:21,015 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 117.81609195402298
+2025-05-31 15:01:21,015 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 117.81609195402298
+2025-05-31 15:01:21,044 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 118.39080459770115
+2025-05-31 15:01:21,044 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 118.39080459770115
+2025-05-31 15:01:21,093 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 120.11494252873564
+2025-05-31 15:01:21,093 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 120.11494252873564
+2025-05-31 15:01:21,118 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 121.26436781609196
+2025-05-31 15:01:21,118 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 121.26436781609196
+2025-05-31 15:01:21,139 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 122.41379310344827
+2025-05-31 15:01:21,139 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 122.41379310344827
+2025-05-31 15:01:21,140 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 123.5632183908046
+2025-05-31 15:01:21,140 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 123.5632183908046
+2025-05-31 15:01:21,169 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 126.4367816091954
+2025-05-31 15:01:21,169 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 126.4367816091954
+2025-05-31 15:01:21,190 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 128.16091954022988
+2025-05-31 15:01:21,190 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 128.16091954022988
+2025-05-31 15:01:21,214 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 129.88505747126436
+2025-05-31 15:01:21,214 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 129.88505747126436
+2025-05-31 15:01:21,240 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 131.0344827586207
+2025-05-31 15:01:21,240 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 131.0344827586207
+2025-05-31 15:01:21,267 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 131.60919540229884
+2025-05-31 15:01:21,268 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 131.60919540229884
+2025-05-31 15:01:21,288 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 132.18390804597703
+2025-05-31 15:01:21,288 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 132.18390804597703
+2025-05-31 15:01:21,310 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 133.9080459770115
+2025-05-31 15:01:21,310 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 133.9080459770115
+2025-05-31 15:01:21,637 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 135.0574712643678
+2025-05-31 15:01:21,637 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 135.0574712643678
+2025-05-31 15:01:21,665 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 135.0574712643678
+2025-05-31 15:01:21,665 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 135.0574712643678
+2025-05-31 15:01:21,676 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 127.59
+2025-05-31 15:01:21,689 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 127.59)
+2025-05-31 15:01:21,690 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 136.20689655172413
+2025-05-31 15:01:21,690 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 136.20689655172413
+2025-05-31 15:01:21,719 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 137.9310344827586
+2025-05-31 15:01:21,719 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 137.9310344827586
+2025-05-31 15:01:22,713 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 127.52
+2025-05-31 15:01:22,714 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 127.52)
+2025-05-31 15:01:23,733 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 131.33
+2025-05-31 15:01:23,752 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 131.33)
+2025-05-31 15:01:24,763 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 131.54
+2025-05-31 15:01:24,763 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 131.54)
+2025-05-31 15:01:25,823 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 128.90
+2025-05-31 15:01:25,823 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 128.90)
+2025-05-31 15:01:26,863 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 128.33
+2025-05-31 15:01:26,864 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 128.33)
+2025-05-31 15:01:30,385 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:01:30,390 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:01:30,391 - FaceAttend.RealtimeRecognizer - INFO - Real-time recognition stopped
+2025-05-31 15:01:30,391 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 15:01:32,392 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:01:32,501 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:01:32,504 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 15:01:32,504 - FaceAttend.AttendanceWindow - INFO - Recognition stopped
+2025-05-31 15:01:32,564 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 120.59
+2025-05-31 15:01:32,564 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 120.59)
+2025-05-31 15:01:32,567 - FaceAttend.RealtimeRecognizer - INFO - Recognition loop ended
+2025-05-31 15:03:02,723 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 15:03:02,725 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 15:03:02,725 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:03:02,725 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:03:02,731 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 15:03:02,735 - FaceAttend.AttendanceWindow - INFO - Attendance window closed
+2025-05-31 15:03:14,734 - FaceAttend.FaceDetector - INFO - Haar Cascade classifiers loaded successfully
+2025-05-31 15:03:14,735 - FaceAttend.FaceDetector - INFO - FaceDetector initialized with scale_factor=1.1, min_neighbors=5, min_size=(30, 30)
+2025-05-31 15:03:14,735 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 15:03:14,735 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:03:14,736 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:03:14,736 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:03:14,763 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 15:03:14,766 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 15:03:14,769 - FaceAttend.RegistrationWindow - INFO - Registration window initialized
+2025-05-31 15:03:14,769 - __main__ - INFO - Face registration window opened
+2025-05-31 15:03:16,607 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 15:03:16,607 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:03:16,607 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:03:16,613 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 15:03:16,614 - FaceAttend.RegistrationWindow - INFO - Registration window closed
+2025-05-31 15:03:16,614 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 15:03:16,614 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 15:03:16,614 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:03:16,614 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:03:16,617 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 15:03:17,674 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 15:03:17,709 - FaceAttend.FaceDetector - INFO - Haar Cascade classifiers loaded successfully
+2025-05-31 15:03:17,709 - FaceAttend.FaceDetector - INFO - FaceDetector initialized with scale_factor=1.1, min_neighbors=5, min_size=(30, 30)
+2025-05-31 15:03:17,710 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:03:17,710 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:03:17,710 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:03:17,710 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 15:03:17,722 - FaceAttend.LBPHRecognizer - INFO - Loaded existing model with 4 users
+2025-05-31 15:03:17,722 - FaceAttend.LBPHRecognizer - INFO - LBPHRecognizer initialized with confidence threshold: 80.0
+2025-05-31 15:03:17,723 - FaceAttend.AttendanceLogger - INFO - Attendance logs directory initialized
+2025-05-31 15:03:17,723 - FaceAttend.AttendanceLogger - INFO - AttendanceLogger initialized with base directory: attendance_logs
+2025-05-31 15:03:17,723 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:03:17,723 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:03:17,723 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:03:17,723 - FaceAttend.RealtimeRecognizer - INFO - RealtimeRecognizer initialized with confidence threshold: 80.0
+2025-05-31 15:03:17,723 - FaceAttend.AttendanceWindow - INFO - AttendanceWindow initialized
+2025-05-31 15:03:17,746 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 80.0
+2025-05-31 15:03:17,746 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 80.0
+2025-05-31 15:03:17,746 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 15:03:17,749 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 15:03:17,751 - FaceAttend.AttendanceWindow - INFO - Attendance window shown
+2025-05-31 15:03:17,751 - __main__ - INFO - Attendance capture window opened
+2025-05-31 15:03:20,707 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 15:03:22,488 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 15:03:22,488 - FaceAttend.RealtimeRecognizer - INFO - Recognition loop started
+2025-05-31 15:03:22,488 - FaceAttend.RealtimeRecognizer - INFO - Real-time recognition started successfully
+2025-05-31 15:03:22,488 - FaceAttend.CameraWidget - INFO - Starting camera stream
+2025-05-31 15:03:22,488 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 15:03:23,036 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 15:03:23,036 - FaceAttend.CameraWidget - INFO - Camera stream started successfully
+2025-05-31 15:03:23,036 - FaceAttend.AttendanceWindow - INFO - Recognition started
+2025-05-31 15:03:27,615 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 82.75862068965517
+2025-05-31 15:03:27,615 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 82.75862068965517
+2025-05-31 15:03:27,639 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 85.63218390804599
+2025-05-31 15:03:27,639 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 85.63218390804599
+2025-05-31 15:03:27,661 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 90.80459770114942
+2025-05-31 15:03:27,661 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 90.80459770114942
+2025-05-31 15:03:27,686 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 95.40229885057471
+2025-05-31 15:03:27,686 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 95.40229885057471
+2025-05-31 15:03:27,711 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 97.70114942528735
+2025-05-31 15:03:27,711 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 97.70114942528735
+2025-05-31 15:03:27,739 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 97.12643678160919
+2025-05-31 15:03:27,739 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 97.12643678160919
+2025-05-31 15:03:27,760 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 97.12643678160919
+2025-05-31 15:03:27,760 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 97.12643678160919
+2025-05-31 15:03:27,813 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 97.70114942528735
+2025-05-31 15:03:27,813 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 97.70114942528735
+2025-05-31 15:03:27,837 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 98.85057471264368
+2025-05-31 15:03:27,837 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 98.85057471264368
+2025-05-31 15:03:27,838 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 99.42528735632183
+2025-05-31 15:03:27,838 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 99.42528735632183
+2025-05-31 15:03:27,860 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 102.29885057471265
+2025-05-31 15:03:27,861 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 102.29885057471265
+2025-05-31 15:03:27,862 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 104.02298850574712
+2025-05-31 15:03:27,862 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 104.02298850574712
+2025-05-31 15:03:27,885 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 110.34482758620689
+2025-05-31 15:03:27,885 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 110.34482758620689
+2025-05-31 15:03:27,886 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 110.91954022988506
+2025-05-31 15:03:27,886 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 110.91954022988506
+2025-05-31 15:03:27,911 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 113.79310344827587
+2025-05-31 15:03:27,911 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 113.79310344827587
+2025-05-31 15:03:27,911 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 114.9425287356322
+2025-05-31 15:03:27,911 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 114.9425287356322
+2025-05-31 15:03:27,936 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 116.66666666666666
+2025-05-31 15:03:27,936 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 116.66666666666666
+2025-05-31 15:03:27,960 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 116.66666666666666
+2025-05-31 15:03:27,960 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 116.66666666666666
+2025-05-31 15:03:28,153 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 117.24137931034483
+2025-05-31 15:03:28,153 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 117.24137931034483
+2025-05-31 15:03:28,176 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 118.96551724137932
+2025-05-31 15:03:28,176 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 118.96551724137932
+2025-05-31 15:03:28,178 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 121.26436781609196
+2025-05-31 15:03:28,178 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 121.26436781609196
+2025-05-31 15:03:28,203 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 123.5632183908046
+2025-05-31 15:03:28,203 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 123.5632183908046
+2025-05-31 15:03:28,228 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 127.58620689655173
+2025-05-31 15:03:28,228 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 127.58620689655173
+2025-05-31 15:03:28,236 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 127.35
+2025-05-31 15:03:28,252 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 127.35)
+2025-05-31 15:03:28,252 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 129.31034482758622
+2025-05-31 15:03:28,252 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 129.31034482758622
+2025-05-31 15:03:28,278 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 130.45977011494253
+2025-05-31 15:03:28,278 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 130.45977011494253
+2025-05-31 15:03:29,292 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 127.67
+2025-05-31 15:03:29,293 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 127.67)
+2025-05-31 15:03:30,317 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 127.82
+2025-05-31 15:03:30,317 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 127.82)
+2025-05-31 15:03:32,388 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 126.59
+2025-05-31 15:03:32,388 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 126.59)
+2025-05-31 15:03:33,441 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 124.19
+2025-05-31 15:03:33,444 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 124.19)
+2025-05-31 15:03:34,452 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 125.42
+2025-05-31 15:03:34,453 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 125.42)
+2025-05-31 15:03:36,528 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 128.53
+2025-05-31 15:03:36,529 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 128.53)
+2025-05-31 15:03:39,723 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:03:39,728 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:03:39,728 - FaceAttend.RealtimeRecognizer - INFO - Real-time recognition stopped
+2025-05-31 15:03:39,728 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 15:03:41,728 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:03:41,873 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:03:41,876 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 15:03:41,877 - FaceAttend.AttendanceWindow - INFO - Recognition stopped
+2025-05-31 15:03:41,909 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 129.94
+2025-05-31 15:03:41,909 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 129.94)
+2025-05-31 15:03:41,933 - FaceAttend.RealtimeRecognizer - INFO - Recognition loop ended
+2025-05-31 15:09:54,221 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 15:09:54,224 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 15:09:54,224 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:09:54,224 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:09:54,230 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 15:09:54,236 - FaceAttend.AttendanceWindow - INFO - Attendance window closed
+2025-05-31 15:09:57,480 - __main__ - INFO - Application closing
+2025-05-31 15:09:57,481 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 15:09:57,481 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 15:09:57,481 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:09:57,481 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:09:57,487 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 15:09:57,496 - __main__ - INFO - Application shutdown
+2025-05-31 15:09:57,516 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:09:57,516 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:09:57,516 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:09:57,516 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:15:12,942 - __main__ - INFO - Starting FaceAttend Application
+2025-05-31 15:15:12,943 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:15:12,943 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:15:12,943 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:15:13,186 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:15:13,186 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:15:13,186 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:15:13,186 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 15:15:13,196 - FaceAttend.LBPHRecognizer - INFO - Loaded existing model with 4 users
+2025-05-31 15:15:13,196 - FaceAttend.LBPHRecognizer - INFO - LBPHRecognizer initialized with confidence threshold: 100.0
+2025-05-31 15:15:13,197 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 15:15:13,214 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 15:15:13,214 - __main__ - INFO - Application started successfully
+2025-05-31 15:18:10,120 - FaceAttend.FaceDetector - INFO - Haar Cascade classifiers loaded successfully
+2025-05-31 15:18:10,120 - FaceAttend.FaceDetector - INFO - FaceDetector initialized with scale_factor=1.1, min_neighbors=5, min_size=(30, 30)
+2025-05-31 15:18:10,120 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 15:18:10,121 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:18:10,121 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:18:10,121 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:18:10,150 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 15:18:10,154 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 15:18:10,158 - FaceAttend.RegistrationWindow - INFO - Registration window initialized
+2025-05-31 15:18:10,158 - __main__ - INFO - Face registration window opened
+2025-05-31 15:18:11,426 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 15:18:11,426 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:18:11,426 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:18:11,433 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 15:18:11,434 - FaceAttend.RegistrationWindow - INFO - Registration window closed
+2025-05-31 15:18:11,434 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 15:18:11,434 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 15:18:11,434 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:18:11,434 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:18:11,440 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 15:18:12,585 - FaceAttend.AttendanceLogger - INFO - Attendance logs directory initialized
+2025-05-31 15:18:12,586 - FaceAttend.AttendanceLogger - INFO - AttendanceLogger initialized with base directory: attendance_logs
+2025-05-31 15:18:12,586 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:18:12,586 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:18:12,587 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:18:12,587 - FaceAttend.LogsWindow - INFO - LogsWindow initialized
+2025-05-31 15:18:12,598 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-01
+2025-05-31 15:18:12,598 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-02
+2025-05-31 15:18:12,599 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-03
+2025-05-31 15:18:12,599 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-04
+2025-05-31 15:18:12,599 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-05
+2025-05-31 15:18:12,599 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-06
+2025-05-31 15:18:12,599 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-07
+2025-05-31 15:18:12,599 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-08
+2025-05-31 15:18:12,599 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-09
+2025-05-31 15:18:12,599 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-10
+2025-05-31 15:18:12,599 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-11
+2025-05-31 15:18:12,599 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-12
+2025-05-31 15:18:12,599 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-13
+2025-05-31 15:18:12,599 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-14
+2025-05-31 15:18:12,599 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-15
+2025-05-31 15:18:12,599 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-16
+2025-05-31 15:18:12,599 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-17
+2025-05-31 15:18:12,599 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-18
+2025-05-31 15:18:12,600 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-19
+2025-05-31 15:18:12,600 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-20
+2025-05-31 15:18:12,600 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-21
+2025-05-31 15:18:12,600 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-22
+2025-05-31 15:18:12,600 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-23
+2025-05-31 15:18:12,600 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-24
+2025-05-31 15:18:12,600 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-25
+2025-05-31 15:18:12,600 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-26
+2025-05-31 15:18:12,600 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-27
+2025-05-31 15:18:12,600 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-28
+2025-05-31 15:18:12,600 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-29
+2025-05-31 15:18:12,600 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:18:12,601 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-01
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-02
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-03
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-04
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-05
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-06
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-07
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-08
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-09
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-10
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-11
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-12
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-13
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-14
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-15
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-16
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-17
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-18
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-19
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-20
+2025-05-31 15:18:12,602 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-21
+2025-05-31 15:18:12,603 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-22
+2025-05-31 15:18:12,603 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-23
+2025-05-31 15:18:12,603 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-24
+2025-05-31 15:18:12,603 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-25
+2025-05-31 15:18:12,603 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-26
+2025-05-31 15:18:12,603 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-27
+2025-05-31 15:18:12,603 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-28
+2025-05-31 15:18:12,604 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-29
+2025-05-31 15:18:12,604 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:18:12,604 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:18:12,605 - FaceAttend.LogsWindow - INFO - Loaded 0 attendance records
+2025-05-31 15:18:12,605 - FaceAttend.LogsWindow - INFO - Logs window created successfully
+2025-05-31 15:18:12,605 - __main__ - INFO - Attendance logs window opened
+2025-05-31 15:18:24,289 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:18:24,292 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:18:24,293 - FaceAttend.LogsWindow - INFO - Loaded 0 attendance records
+2025-05-31 15:18:26,014 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:18:26,015 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:18:26,015 - FaceAttend.LogsWindow - INFO - Loaded 0 attendance records
+2025-05-31 15:18:26,783 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-26
+2025-05-31 15:18:26,784 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-27
+2025-05-31 15:18:26,784 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-28
+2025-05-31 15:18:26,784 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-29
+2025-05-31 15:18:26,784 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:18:26,785 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:18:26,786 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-26
+2025-05-31 15:18:26,786 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-27
+2025-05-31 15:18:26,786 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-28
+2025-05-31 15:18:26,786 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-29
+2025-05-31 15:18:26,786 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:18:26,786 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:18:26,787 - FaceAttend.LogsWindow - INFO - Loaded 0 attendance records
+2025-05-31 15:18:32,799 - FaceAttend.LogsWindow - INFO - Logs window closed
+2025-05-31 15:18:34,083 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 15:18:34,120 - FaceAttend.FaceDetector - INFO - Haar Cascade classifiers loaded successfully
+2025-05-31 15:18:34,120 - FaceAttend.FaceDetector - INFO - FaceDetector initialized with scale_factor=1.1, min_neighbors=5, min_size=(30, 30)
+2025-05-31 15:18:34,121 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:18:34,121 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:18:34,121 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:18:34,121 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 15:18:34,133 - FaceAttend.LBPHRecognizer - INFO - Loaded existing model with 4 users
+2025-05-31 15:18:34,133 - FaceAttend.LBPHRecognizer - INFO - LBPHRecognizer initialized with confidence threshold: 80.0
+2025-05-31 15:18:34,133 - FaceAttend.AttendanceLogger - INFO - Attendance logs directory initialized
+2025-05-31 15:18:34,133 - FaceAttend.AttendanceLogger - INFO - AttendanceLogger initialized with base directory: attendance_logs
+2025-05-31 15:18:34,133 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:18:34,134 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:18:34,134 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:18:34,134 - FaceAttend.RealtimeRecognizer - INFO - RealtimeRecognizer initialized with confidence threshold: 80.0
+2025-05-31 15:18:34,134 - FaceAttend.AttendanceWindow - INFO - AttendanceWindow initialized
+2025-05-31 15:18:34,157 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 80.0
+2025-05-31 15:18:34,158 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 80.0
+2025-05-31 15:18:34,158 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 15:18:34,161 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 15:18:34,163 - FaceAttend.AttendanceWindow - INFO - Attendance window shown
+2025-05-31 15:18:34,164 - __main__ - INFO - Attendance capture window opened
+2025-05-31 15:18:35,167 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 15:18:36,977 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 15:18:36,977 - FaceAttend.RealtimeRecognizer - INFO - Recognition loop started
+2025-05-31 15:18:36,977 - FaceAttend.RealtimeRecognizer - INFO - Real-time recognition started successfully
+2025-05-31 15:18:36,977 - FaceAttend.CameraWidget - INFO - Starting camera stream
+2025-05-31 15:18:36,977 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 15:18:37,567 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 15:18:37,567 - FaceAttend.CameraWidget - INFO - Camera stream started successfully
+2025-05-31 15:18:37,567 - FaceAttend.AttendanceWindow - INFO - Recognition started
+2025-05-31 15:18:39,459 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 81.0
+2025-05-31 15:18:39,459 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 81.0
+2025-05-31 15:18:39,859 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 82.0
+2025-05-31 15:18:39,859 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 82.0
+2025-05-31 15:18:40,159 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 83.0
+2025-05-31 15:18:40,160 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 83.0
+2025-05-31 15:18:41,442 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 84.48275862068965
+2025-05-31 15:18:41,442 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 84.48275862068965
+2025-05-31 15:18:41,465 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 89.08045977011494
+2025-05-31 15:18:41,465 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 89.08045977011494
+2025-05-31 15:18:41,467 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 92.5287356321839
+2025-05-31 15:18:41,467 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 92.5287356321839
+2025-05-31 15:18:41,491 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 110.91954022988506
+2025-05-31 15:18:41,491 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 110.91954022988506
+2025-05-31 15:18:41,494 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 122.41379310344827
+2025-05-31 15:18:41,494 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 122.41379310344827
+2025-05-31 15:18:41,516 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 145.97701149425288
+2025-05-31 15:18:41,516 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 145.97701149425288
+2025-05-31 15:18:41,517 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 15:18:41,517 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 15:18:41,541 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 15:18:41,542 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 15:18:41,569 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 15:18:41,569 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 15:18:41,591 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 15:18:41,592 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 15:18:41,616 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 15:18:41,616 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 15:18:41,617 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 15:18:41,617 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 150.0
+2025-05-31 15:18:41,797 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 111.29
+2025-05-31 15:18:41,800 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 111.29)
+2025-05-31 15:18:42,819 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 118.58
+2025-05-31 15:18:42,820 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 118.58)
+2025-05-31 15:18:44,894 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 112.85
+2025-05-31 15:18:44,894 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 112.85)
+2025-05-31 15:18:45,961 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 111.93
+2025-05-31 15:18:45,961 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 111.93)
+2025-05-31 15:18:46,998 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 115.71
+2025-05-31 15:18:46,998 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 115.71)
+2025-05-31 15:18:51,164 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 117.02
+2025-05-31 15:18:51,165 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 117.02)
+2025-05-31 15:18:52,201 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 117.46
+2025-05-31 15:18:52,201 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 117.46)
+2025-05-31 15:18:54,418 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:18:54,468 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:18:54,469 - FaceAttend.RealtimeRecognizer - INFO - Real-time recognition stopped
+2025-05-31 15:18:54,469 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 15:18:56,470 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:18:56,572 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:18:56,575 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 15:18:56,575 - FaceAttend.AttendanceWindow - INFO - Recognition stopped
+2025-05-31 15:18:56,579 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 15:18:56,579 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 15:18:58,580 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:18:58,581 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:18:58,588 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 15:18:58,597 - FaceAttend.AttendanceWindow - INFO - Attendance window closed
+2025-05-31 15:18:58,614 - FaceAttend.CameraWidget - ERROR - Error displaying frame: invalid command name ".!toplevel3.!frame.!frame.!labelframe2.!camerawidget.!label"
+2025-05-31 15:18:58,659 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 112.42
+2025-05-31 15:18:58,659 - FaceAttend.RealtimeRecognizer - ERROR - Error in status callback: invalid command name ".!toplevel3.!frame.!frame.!labelframe3.!label"
+2025-05-31 15:18:58,659 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 112.42)
+2025-05-31 15:18:58,660 - FaceAttend.AttendanceWindow - ERROR - Error handling recognition result: invalid command name ".!toplevel3.!frame.!frame2.!labelframe.!label2"
+2025-05-31 15:18:58,660 - FaceAttend.RealtimeRecognizer - INFO - Recognition loop ended
+2025-05-31 15:18:59,672 - FaceAttend.AttendanceLogger - INFO - Attendance logs directory initialized
+2025-05-31 15:18:59,672 - FaceAttend.AttendanceLogger - INFO - AttendanceLogger initialized with base directory: attendance_logs
+2025-05-31 15:18:59,672 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:18:59,674 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:18:59,674 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:18:59,674 - FaceAttend.LogsWindow - INFO - LogsWindow initialized
+2025-05-31 15:18:59,679 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-01
+2025-05-31 15:18:59,679 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-02
+2025-05-31 15:18:59,679 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-03
+2025-05-31 15:18:59,679 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-04
+2025-05-31 15:18:59,679 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-05
+2025-05-31 15:18:59,679 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-06
+2025-05-31 15:18:59,679 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-07
+2025-05-31 15:18:59,679 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-08
+2025-05-31 15:18:59,679 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-09
+2025-05-31 15:18:59,679 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-10
+2025-05-31 15:18:59,679 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-11
+2025-05-31 15:18:59,679 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-12
+2025-05-31 15:18:59,679 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-13
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-14
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-15
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-16
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-17
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-18
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-19
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-20
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-21
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-22
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-23
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-24
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-25
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-26
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-27
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-28
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-29
+2025-05-31 15:18:59,680 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:18:59,681 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:18:59,681 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-01
+2025-05-31 15:18:59,681 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-02
+2025-05-31 15:18:59,681 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-03
+2025-05-31 15:18:59,681 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-04
+2025-05-31 15:18:59,681 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-05
+2025-05-31 15:18:59,681 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-06
+2025-05-31 15:18:59,681 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-07
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-08
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-09
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-10
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-11
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-12
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-13
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-14
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-15
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-16
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-17
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-18
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-19
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-20
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-21
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-22
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-23
+2025-05-31 15:18:59,682 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-24
+2025-05-31 15:18:59,683 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-25
+2025-05-31 15:18:59,683 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-26
+2025-05-31 15:18:59,683 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-27
+2025-05-31 15:18:59,683 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-28
+2025-05-31 15:18:59,683 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-29
+2025-05-31 15:18:59,683 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:18:59,683 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:18:59,683 - FaceAttend.LogsWindow - INFO - Loaded 0 attendance records
+2025-05-31 15:18:59,683 - FaceAttend.LogsWindow - INFO - Logs window created successfully
+2025-05-31 15:18:59,684 - __main__ - INFO - Attendance logs window opened
+2025-05-31 15:19:05,130 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:19:05,131 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:19:05,131 - FaceAttend.LogsWindow - INFO - Loaded 0 attendance records
+2025-05-31 15:19:13,232 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-03
+2025-05-31 15:19:13,232 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-04
+2025-05-31 15:19:13,232 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-05
+2025-05-31 15:19:13,232 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-06
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-07
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-08
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-09
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-10
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-11
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-12
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-13
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-14
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-15
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-16
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-17
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-18
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-19
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-20
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-21
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-22
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-23
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-24
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-25
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-26
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-27
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-28
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-29
+2025-05-31 15:19:13,233 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:19:13,234 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:19:13,449 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:19:13,450 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:19:15,609 - FaceAttend.AttendanceLogger - INFO - Retrieved 0 attendance records from 2025-05-30 to 2025-05-03
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-01
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-02
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-03
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-04
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-05
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-06
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-07
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-08
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-09
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-10
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-11
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-12
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-13
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-14
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-15
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-16
+2025-05-31 15:19:15,733 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-17
+2025-05-31 15:19:15,734 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-18
+2025-05-31 15:19:15,734 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-19
+2025-05-31 15:19:15,734 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-20
+2025-05-31 15:19:15,734 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-21
+2025-05-31 15:19:15,734 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-22
+2025-05-31 15:19:15,734 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-23
+2025-05-31 15:19:15,734 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-24
+2025-05-31 15:19:15,734 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-25
+2025-05-31 15:19:15,734 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-26
+2025-05-31 15:19:15,734 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-27
+2025-05-31 15:19:15,734 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-28
+2025-05-31 15:19:15,734 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-29
+2025-05-31 15:19:15,734 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:19:15,734 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:19:18,511 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:19:18,512 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:19:18,512 - FaceAttend.LogsWindow - INFO - Loaded 0 attendance records
+2025-05-31 15:19:19,156 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-26
+2025-05-31 15:19:19,156 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-27
+2025-05-31 15:19:19,156 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-28
+2025-05-31 15:19:19,156 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-29
+2025-05-31 15:19:19,156 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:19:19,157 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:19:19,157 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-26
+2025-05-31 15:19:19,157 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-27
+2025-05-31 15:19:19,157 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-28
+2025-05-31 15:19:19,157 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-29
+2025-05-31 15:19:19,157 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:19:19,157 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:19:19,158 - FaceAttend.LogsWindow - INFO - Loaded 0 attendance records
+2025-05-31 15:19:19,868 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-01
+2025-05-31 15:19:19,868 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-02
+2025-05-31 15:19:19,868 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-03
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-04
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-05
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-06
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-07
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-08
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-09
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-10
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-11
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-12
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-13
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-14
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-15
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-16
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-17
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-18
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-19
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-20
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-21
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-22
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-23
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-24
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-25
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-26
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-27
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-28
+2025-05-31 15:19:19,869 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-29
+2025-05-31 15:19:19,870 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:19:19,870 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:19:19,870 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-01
+2025-05-31 15:19:19,870 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-02
+2025-05-31 15:19:19,870 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-03
+2025-05-31 15:19:19,870 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-04
+2025-05-31 15:19:19,870 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-05
+2025-05-31 15:19:19,870 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-06
+2025-05-31 15:19:19,870 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-07
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-08
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-09
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-10
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-11
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-12
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-13
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-14
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-15
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-16
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-17
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-18
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-19
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-20
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-21
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-22
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-23
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-24
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-25
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-26
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-27
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-28
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-29
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:19:19,871 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:19:19,872 - FaceAttend.LogsWindow - INFO - Loaded 0 attendance records
+2025-05-31 15:19:25,589 - FaceAttend.LogsWindow - INFO - Logs window closed
+2025-05-31 15:22:20,211 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 15:22:20,246 - FaceAttend.FaceDetector - INFO - Haar Cascade classifiers loaded successfully
+2025-05-31 15:22:20,246 - FaceAttend.FaceDetector - INFO - FaceDetector initialized with scale_factor=1.1, min_neighbors=5, min_size=(30, 30)
+2025-05-31 15:22:20,247 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:22:20,247 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:22:20,247 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:22:20,247 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 15:22:20,259 - FaceAttend.LBPHRecognizer - INFO - Loaded existing model with 4 users
+2025-05-31 15:22:20,259 - FaceAttend.LBPHRecognizer - INFO - LBPHRecognizer initialized with confidence threshold: 80.0
+2025-05-31 15:22:20,259 - FaceAttend.AttendanceLogger - INFO - Attendance logs directory initialized
+2025-05-31 15:22:20,260 - FaceAttend.AttendanceLogger - INFO - AttendanceLogger initialized with base directory: attendance_logs
+2025-05-31 15:22:20,260 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:22:20,260 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:22:20,260 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:22:20,260 - FaceAttend.RealtimeRecognizer - INFO - RealtimeRecognizer initialized with confidence threshold: 80.0
+2025-05-31 15:22:20,260 - FaceAttend.AttendanceWindow - INFO - AttendanceWindow initialized
+2025-05-31 15:22:20,287 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 80.0
+2025-05-31 15:22:20,288 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 80.0
+2025-05-31 15:22:20,288 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 15:22:20,292 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 15:22:20,297 - FaceAttend.AttendanceWindow - INFO - Attendance window shown
+2025-05-31 15:22:20,297 - __main__ - INFO - Attendance capture window opened
+2025-05-31 15:22:22,345 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 15:22:22,346 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 15:22:22,346 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:22:22,346 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:22:22,351 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 15:22:22,354 - FaceAttend.AttendanceWindow - INFO - Attendance window closed
+2025-05-31 15:22:23,273 - FaceAttend.AttendanceLogger - INFO - Attendance logs directory initialized
+2025-05-31 15:22:23,274 - FaceAttend.AttendanceLogger - INFO - AttendanceLogger initialized with base directory: attendance_logs
+2025-05-31 15:22:23,275 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:22:23,275 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:22:23,275 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:22:23,275 - FaceAttend.LogsWindow - INFO - LogsWindow initialized
+2025-05-31 15:22:23,280 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-01
+2025-05-31 15:22:23,281 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-02
+2025-05-31 15:22:23,281 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-03
+2025-05-31 15:22:23,281 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-04
+2025-05-31 15:22:23,281 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-05
+2025-05-31 15:22:23,281 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-06
+2025-05-31 15:22:23,281 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-07
+2025-05-31 15:22:23,281 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-08
+2025-05-31 15:22:23,281 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-09
+2025-05-31 15:22:23,281 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-10
+2025-05-31 15:22:23,282 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-11
+2025-05-31 15:22:23,282 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-12
+2025-05-31 15:22:23,282 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-13
+2025-05-31 15:22:23,282 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-14
+2025-05-31 15:22:23,282 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-15
+2025-05-31 15:22:23,282 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-16
+2025-05-31 15:22:23,282 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-17
+2025-05-31 15:22:23,282 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-18
+2025-05-31 15:22:23,282 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-19
+2025-05-31 15:22:23,282 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-20
+2025-05-31 15:22:23,282 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-21
+2025-05-31 15:22:23,282 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-22
+2025-05-31 15:22:23,283 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-23
+2025-05-31 15:22:23,283 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-24
+2025-05-31 15:22:23,283 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-25
+2025-05-31 15:22:23,283 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-26
+2025-05-31 15:22:23,283 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-27
+2025-05-31 15:22:23,283 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-28
+2025-05-31 15:22:23,283 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-29
+2025-05-31 15:22:23,283 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:22:23,283 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:22:23,284 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-01
+2025-05-31 15:22:23,284 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-02
+2025-05-31 15:22:23,284 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-03
+2025-05-31 15:22:23,284 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-04
+2025-05-31 15:22:23,284 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-05
+2025-05-31 15:22:23,284 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-06
+2025-05-31 15:22:23,284 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-07
+2025-05-31 15:22:23,284 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-08
+2025-05-31 15:22:23,284 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-09
+2025-05-31 15:22:23,284 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-10
+2025-05-31 15:22:23,284 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-11
+2025-05-31 15:22:23,284 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-12
+2025-05-31 15:22:23,284 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-13
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-14
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-15
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-16
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-17
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-18
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-19
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-20
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-21
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-22
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-23
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-24
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-25
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-26
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-27
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-28
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-29
+2025-05-31 15:22:23,285 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:22:23,286 - FaceAttend.AttendanceLogger - ERROR - Failed to get attendance range: day is out of range for month
+2025-05-31 15:22:23,286 - FaceAttend.LogsWindow - INFO - Loaded 0 attendance records
+2025-05-31 15:22:23,286 - FaceAttend.LogsWindow - INFO - Logs window created successfully
+2025-05-31 15:22:23,286 - __main__ - INFO - Attendance logs window opened
+2025-05-31 15:22:25,204 - FaceAttend.LogsWindow - INFO - Logs window closed
+2025-05-31 15:22:26,418 - __main__ - INFO - Application closing
+2025-05-31 15:22:26,418 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 15:22:26,418 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 15:22:26,418 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:22:26,418 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:22:26,423 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 15:22:26,436 - __main__ - INFO - Application shutdown
+2025-05-31 15:22:26,468 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:22:26,469 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:22:26,469 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:22:26,469 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:23:25,911 - __main__ - INFO - Starting FaceAttend Application
+2025-05-31 15:23:25,911 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:23:25,911 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:23:25,911 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:23:26,122 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:23:26,122 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:23:26,123 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:23:26,123 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 15:23:26,133 - FaceAttend.LBPHRecognizer - INFO - Loaded existing model with 4 users
+2025-05-31 15:23:26,133 - FaceAttend.LBPHRecognizer - INFO - LBPHRecognizer initialized with confidence threshold: 100.0
+2025-05-31 15:23:26,134 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 15:23:26,151 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 15:23:26,151 - __main__ - INFO - Application started successfully
+2025-05-31 15:23:31,783 - FaceAttend.AttendanceLogger - INFO - Attendance logs directory initialized
+2025-05-31 15:23:31,783 - FaceAttend.AttendanceLogger - INFO - AttendanceLogger initialized with base directory: attendance_logs
+2025-05-31 15:23:31,783 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 15:23:31,784 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 15:23:31,785 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 15:23:31,785 - FaceAttend.LogsWindow - INFO - LogsWindow initialized
+2025-05-31 15:23:31,797 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-01
+2025-05-31 15:23:31,797 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-02
+2025-05-31 15:23:31,797 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-03
+2025-05-31 15:23:31,797 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-04
+2025-05-31 15:23:31,797 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-05
+2025-05-31 15:23:31,797 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-06
+2025-05-31 15:23:31,797 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-07
+2025-05-31 15:23:31,797 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-08
+2025-05-31 15:23:31,797 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-09
+2025-05-31 15:23:31,797 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-10
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-11
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-12
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-13
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-14
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-15
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-16
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-17
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-18
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-19
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-20
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-21
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-22
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-23
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-24
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-25
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-26
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-27
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-28
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-29
+2025-05-31 15:23:31,798 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:23:31,800 - FaceAttend.AttendanceLogger - INFO - Retrieved 52 attendance records from 2025-05-01 to 2025-05-31
+2025-05-31 15:23:31,800 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-01
+2025-05-31 15:23:31,800 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-02
+2025-05-31 15:23:31,800 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-03
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-04
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-05
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-06
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-07
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-08
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-09
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-10
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-11
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-12
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-13
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-14
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-15
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-16
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-17
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-18
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-19
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-20
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-21
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-22
+2025-05-31 15:23:31,801 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-23
+2025-05-31 15:23:31,802 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-24
+2025-05-31 15:23:31,802 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-25
+2025-05-31 15:23:31,802 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-26
+2025-05-31 15:23:31,802 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-27
+2025-05-31 15:23:31,802 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-28
+2025-05-31 15:23:31,802 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-29
+2025-05-31 15:23:31,802 - FaceAttend.AttendanceLogger - INFO - No attendance log found for 2025-05-30
+2025-05-31 15:23:31,802 - FaceAttend.AttendanceLogger - INFO - Retrieved 52 attendance records from 2025-05-01 to 2025-05-31
+2025-05-31 15:23:31,802 - FaceAttend.LogsWindow - INFO - Loaded 52 attendance records
+2025-05-31 15:23:31,802 - FaceAttend.LogsWindow - INFO - Logs window created successfully
+2025-05-31 15:23:31,802 - __main__ - INFO - Attendance logs window opened
+2025-05-31 15:23:56,748 - FaceAttend.LogsWindow - INFO - Logs window closed
+2025-05-31 15:23:58,674 - __main__ - INFO - Application closing
+2025-05-31 15:23:58,675 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 15:23:58,675 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 15:23:58,675 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:23:58,675 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 15:23:58,684 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 15:23:58,704 - __main__ - INFO - Application shutdown
+2025-05-31 15:23:58,720 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 15:23:58,720 - FaceAttend.CameraManager - INFO - Camera resources released

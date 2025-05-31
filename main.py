@@ -172,7 +172,7 @@ class FaceAttendApp:
         )
         camera_btn.grid(row=1, column=1, padx=10, pady=10)
         
-        # Info section - Updated for Phase 3
+        # Info section - Updated for Phase 4
         info_frame = ttk.LabelFrame(home_frame, text="System Status", padding=15)
         info_frame.pack(pady=20, padx=40, fill=tk.X)
         
@@ -191,7 +191,7 @@ class FaceAttendApp:
             users_in_model = 0
         
         info_text = f"""
-Phase 3 Implementation Complete ✓
+Phase 4 Implementation Complete ✓
 • Face registration system ✓
 • Face detection with Haar Cascades ✓  
 • Image preprocessing pipeline ✓
@@ -199,6 +199,9 @@ Phase 3 Implementation Complete ✓
 • LBPH recognition engine ✓
 • Real-time attendance capture ✓
 • Attendance logging system ✓
+• Attendance logs viewer ✓
+• CSV export functionality ✓
+• Statistical reporting ✓
 
 System Statistics:
 • Total registered users: {stats.get('total_users', 0)}
@@ -210,10 +213,13 @@ System Statistics:
 Ready for Use:
 • Face registration ✓
 • Real-time attendance capture ✓
+• Attendance logs viewing ✓
+• Data export and management ✓
 
 Coming in Future Phases:
-• Attendance log viewing (Phase 4)
 • Performance optimization (Phase 5)
+• Mac application packaging (Phase 6)
+• Final testing and delivery (Phase 7)
         """
         
         info_label = ttk.Label(info_frame, text=info_text, justify=tk.LEFT)
@@ -306,17 +312,26 @@ Coming in Future Phases:
             self.status_var.set("Error opening attendance window")
     
     def open_logs_screen(self):
-        """Open attendance logs screen (placeholder for Phase 4)"""
-        self.status_var.set("View Logs - Feature coming in Phase 4")
-        messagebox.showinfo(
-            "Feature Coming Soon", 
-            "Log viewing will be implemented in Phase 4.\n\n"
-            "This will include:\n"
-            "• Daily CSV log viewing\n"
-            "• Attendance statistics\n"
-            "• Export functionality\n"
-            "• Date range filtering"
-        )
+        """Open attendance logs screen (Phase 4 implementation)"""
+        self.status_var.set("Opening attendance logs window...")
+        
+        try:
+            # Import and open logs window
+            from src.ui.logs_window import open_logs_window
+            
+            # Open logs window
+            if not hasattr(self, 'logs_window') or not self.logs_window.is_window_open:
+                self.logs_window = open_logs_window(parent=self.root)
+            else:
+                self.logs_window.show_window()
+            
+            self.status_var.set("Attendance logs window opened")
+            self.logger.info("Attendance logs window opened")
+            
+        except Exception as e:
+            self.logger.error(f"Failed to open logs window: {str(e)}")
+            messagebox.showerror("Error", f"Failed to open logs window: {str(e)}")
+            self.status_var.set("Error opening logs window")
     
     def test_camera(self):
         """Test camera functionality (Phase 1 implementation)"""

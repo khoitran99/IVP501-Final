@@ -133,6 +133,19 @@ class ImageProcessor:
             self.logger.error(f"Error in face image preprocessing: {str(e)}")
             raise ValidationError(f"Face image preprocessing failed: {str(e)}")
     
+    def preprocess_for_recognition(self, image: np.ndarray, target_size: Tuple[int, int] = (100, 100)) -> np.ndarray:
+        """
+        Preprocess face image specifically for LBPH recognition
+        
+        Args:
+            image: Input face image
+            target_size: Target size for recognition (width, height)
+            
+        Returns:
+            Preprocessed face image optimized for LBPH recognition
+        """
+        return self.preprocess_face_image(image, target_size, equalization_method='clahe')
+    
     def normalize_image(self, image: np.ndarray, method: str = 'minmax') -> np.ndarray:
         """
         Normalize image pixel values

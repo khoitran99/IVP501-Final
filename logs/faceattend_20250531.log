@@ -294,3 +294,375 @@
 2025-05-31 09:54:59,285 - FaceAttend.CameraManager - INFO - Releasing camera resources
 2025-05-31 09:54:59,285 - FaceAttend.CameraManager - INFO - Camera resources released
 2025-05-31 09:54:59,291 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 12:58:23,232 - __main__ - INFO - Starting FaceAttend Application
+2025-05-31 12:58:23,232 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 12:58:23,233 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 12:58:23,233 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 12:58:23,509 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 12:58:23,509 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 12:58:23,509 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 12:58:23,509 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 12:58:23,509 - FaceAttend.LBPHRecognizer - INFO - No existing model found, starting fresh
+2025-05-31 12:58:23,509 - FaceAttend.LBPHRecognizer - INFO - LBPHRecognizer initialized with confidence threshold: 100.0
+2025-05-31 12:58:23,510 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 12:58:23,521 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 12:58:23,522 - __main__ - INFO - Application started successfully
+2025-05-31 13:03:17,751 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 13:03:17,789 - FaceAttend.FaceDetector - INFO - Haar Cascade classifiers loaded successfully
+2025-05-31 13:03:17,789 - FaceAttend.FaceDetector - INFO - FaceDetector initialized with scale_factor=1.1, min_neighbors=5, min_size=(30, 30)
+2025-05-31 13:03:17,791 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 13:03:17,792 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 13:03:17,792 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 13:03:17,792 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 13:03:17,792 - FaceAttend.LBPHRecognizer - INFO - No existing model found, starting fresh
+2025-05-31 13:03:17,792 - FaceAttend.LBPHRecognizer - INFO - LBPHRecognizer initialized with confidence threshold: 80.0
+2025-05-31 13:03:17,792 - FaceAttend.AttendanceLogger - INFO - Attendance logs directory initialized
+2025-05-31 13:03:17,792 - FaceAttend.AttendanceLogger - INFO - AttendanceLogger initialized with base directory: attendance_logs
+2025-05-31 13:03:17,792 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 13:03:17,792 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 13:03:17,792 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 13:03:17,792 - FaceAttend.RealtimeRecognizer - INFO - RealtimeRecognizer initialized with confidence threshold: 80.0
+2025-05-31 13:03:17,792 - FaceAttend.AttendanceWindow - INFO - AttendanceWindow initialized
+2025-05-31 13:03:17,824 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 13:03:17,827 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 13:03:17,827 - FaceAttend.AttendanceWindow - ERROR - Error setting up UI: 'CameraWidget' object has no attribute 'frame'
+2025-05-31 13:03:17,827 - FaceAttend.AttendanceWindow - ERROR - Failed to show attendance window: UI setup failed: 'CameraWidget' object has no attribute 'frame'
+2025-05-31 13:03:17,827 - __main__ - ERROR - Failed to open attendance window: Attendance window creation failed: UI setup failed: 'CameraWidget' object has no attribute 'frame'
+2025-05-31 13:03:26,531 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 13:03:28,486 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 13:03:28,486 - FaceAttend.LBPHRecognizer - INFO - Starting model training...
+2025-05-31 13:03:28,486 - FaceAttend.LBPHRecognizer - INFO - Loading training data for 4 users
+2025-05-31 13:03:28,486 - FaceAttend.FaceStorage - INFO - Loaded 0 images for user 123
+2025-05-31 13:03:28,486 - FaceAttend.LBPHRecognizer - WARNING - No images found for user 123
+2025-05-31 13:03:28,486 - FaceAttend.FaceStorage - INFO - Loaded 0 images for user 1234
+2025-05-31 13:03:28,486 - FaceAttend.LBPHRecognizer - WARNING - No images found for user 1234
+2025-05-31 13:03:28,486 - FaceAttend.FaceStorage - INFO - Loaded 0 images for user 12345665
+2025-05-31 13:03:28,486 - FaceAttend.LBPHRecognizer - WARNING - No images found for user 12345665
+2025-05-31 13:03:28,492 - FaceAttend.FaceStorage - INFO - Loaded 8 images for user 123456
+2025-05-31 13:03:28,500 - FaceAttend.LBPHRecognizer - INFO - Loaded 8 training images from 4 users
+2025-05-31 13:03:28,516 - FaceAttend.LBPHRecognizer - INFO - Model saved to trainer.yml
+2025-05-31 13:03:28,516 - FaceAttend.LBPHRecognizer - INFO - Model training completed successfully. Images: 8, Users: 1, Time: 0.00s
+2025-05-31 13:03:28,516 - FaceAttend.RealtimeRecognizer - INFO - Recognition loop started
+2025-05-31 13:03:28,516 - FaceAttend.RealtimeRecognizer - INFO - Real-time recognition started successfully
+2025-05-31 13:03:28,516 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:28,516 - FaceAttend.AttendanceWindow - ERROR - Error toggling recognition: 'CameraWidget' object has no attribute 'start_display'
+2025-05-31 13:03:29,521 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:30,522 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:31,528 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:32,530 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:33,531 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 13:03:33,531 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 13:03:33,531 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 13:03:33,531 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 13:03:33,535 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:33,539 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 13:03:34,539 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:35,335 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 13:03:35,359 - FaceAttend.FaceDetector - INFO - Haar Cascade classifiers loaded successfully
+2025-05-31 13:03:35,359 - FaceAttend.FaceDetector - INFO - FaceDetector initialized with scale_factor=1.1, min_neighbors=5, min_size=(30, 30)
+2025-05-31 13:03:35,359 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 13:03:35,360 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 13:03:35,360 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 13:03:35,360 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 13:03:35,368 - FaceAttend.LBPHRecognizer - INFO - Loaded existing model with 4 users
+2025-05-31 13:03:35,368 - FaceAttend.LBPHRecognizer - INFO - LBPHRecognizer initialized with confidence threshold: 80.0
+2025-05-31 13:03:35,368 - FaceAttend.AttendanceLogger - INFO - Attendance logs directory initialized
+2025-05-31 13:03:35,368 - FaceAttend.AttendanceLogger - INFO - AttendanceLogger initialized with base directory: attendance_logs
+2025-05-31 13:03:35,368 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 13:03:35,368 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 13:03:35,368 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 13:03:35,368 - FaceAttend.RealtimeRecognizer - INFO - RealtimeRecognizer initialized with confidence threshold: 80.0
+2025-05-31 13:03:35,368 - FaceAttend.AttendanceWindow - INFO - AttendanceWindow initialized
+2025-05-31 13:03:35,394 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 13:03:35,397 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 13:03:35,397 - FaceAttend.AttendanceWindow - ERROR - Error setting up UI: 'CameraWidget' object has no attribute 'frame'
+2025-05-31 13:03:35,397 - FaceAttend.AttendanceWindow - ERROR - Failed to show attendance window: UI setup failed: 'CameraWidget' object has no attribute 'frame'
+2025-05-31 13:03:35,397 - __main__ - ERROR - Failed to open attendance window: Attendance window creation failed: UI setup failed: 'CameraWidget' object has no attribute 'frame'
+2025-05-31 13:03:35,544 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:36,550 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:37,553 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:38,560 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:39,569 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:40,576 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:41,578 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:42,584 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:43,543 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 13:03:43,544 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 13:03:43,544 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 13:03:43,544 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 13:03:43,551 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 13:03:43,590 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:44,593 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:45,596 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:46,601 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:47,606 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:48,607 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:49,609 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:50,614 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:51,616 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:52,621 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:53,627 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:54,633 - FaceAttend.RealtimeRecognizer - ERROR - Error in recognition loop: 'CameraManager' object has no attribute 'get_frame'
+2025-05-31 13:03:54,768 - __main__ - INFO - Application closing
+2025-05-31 13:03:54,768 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 13:03:54,768 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 13:03:54,768 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 13:03:54,768 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 13:03:54,772 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 13:03:54,783 - __main__ - INFO - Application shutdown
+2025-05-31 13:03:54,832 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 13:03:54,833 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 13:03:54,833 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 13:03:54,833 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 13:03:54,847 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 13:03:54,847 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 13:03:54,847 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 13:03:54,847 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 13:06:52,759 - __main__ - INFO - Starting FaceAttend Application
+2025-05-31 13:06:52,759 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 13:06:52,759 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 13:06:52,759 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 13:06:52,996 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 13:06:52,997 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 13:06:52,997 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 13:06:52,997 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 13:06:53,006 - FaceAttend.LBPHRecognizer - INFO - Loaded existing model with 4 users
+2025-05-31 13:06:53,006 - FaceAttend.LBPHRecognizer - INFO - LBPHRecognizer initialized with confidence threshold: 100.0
+2025-05-31 13:06:53,007 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 13:06:53,023 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 13:06:53,023 - __main__ - INFO - Application started successfully
+2025-05-31 14:49:18,154 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 14:49:18,185 - FaceAttend.FaceDetector - INFO - Haar Cascade classifiers loaded successfully
+2025-05-31 14:49:18,185 - FaceAttend.FaceDetector - INFO - FaceDetector initialized with scale_factor=1.1, min_neighbors=5, min_size=(30, 30)
+2025-05-31 14:49:18,185 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 14:49:18,185 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 14:49:18,185 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 14:49:18,185 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 14:49:18,195 - FaceAttend.LBPHRecognizer - INFO - Loaded existing model with 4 users
+2025-05-31 14:49:18,195 - FaceAttend.LBPHRecognizer - INFO - LBPHRecognizer initialized with confidence threshold: 80.0
+2025-05-31 14:49:18,195 - FaceAttend.AttendanceLogger - INFO - Attendance logs directory initialized
+2025-05-31 14:49:18,195 - FaceAttend.AttendanceLogger - INFO - AttendanceLogger initialized with base directory: attendance_logs
+2025-05-31 14:49:18,195 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 14:49:18,195 - FaceAttend.FaceStorage - INFO - Loaded user data for 4 users
+2025-05-31 14:49:18,195 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 14:49:18,195 - FaceAttend.RealtimeRecognizer - INFO - RealtimeRecognizer initialized with confidence threshold: 80.0
+2025-05-31 14:49:18,195 - FaceAttend.AttendanceWindow - INFO - AttendanceWindow initialized
+2025-05-31 14:49:18,221 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 80.0
+2025-05-31 14:49:18,221 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 80.0
+2025-05-31 14:49:18,221 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 14:49:18,225 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 14:49:18,230 - FaceAttend.AttendanceLogger - INFO - No attendance log found for None
+2025-05-31 14:49:18,230 - FaceAttend.AttendanceWindow - INFO - Attendance window shown
+2025-05-31 14:49:18,231 - __main__ - INFO - Attendance capture window opened
+2025-05-31 14:49:24,885 - FaceAttend.CameraWidget - INFO - Starting camera stream
+2025-05-31 14:49:24,887 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 14:49:27,280 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 14:49:27,280 - FaceAttend.CameraWidget - INFO - Camera stream started successfully
+2025-05-31 14:49:36,568 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 14:49:37,189 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 14:49:37,189 - FaceAttend.RealtimeRecognizer - INFO - Recognition loop started
+2025-05-31 14:49:37,189 - FaceAttend.RealtimeRecognizer - INFO - Real-time recognition started successfully
+2025-05-31 14:49:37,189 - FaceAttend.CameraWidget - INFO - Starting camera stream
+2025-05-31 14:49:37,189 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 14:49:37,766 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 14:49:37,766 - FaceAttend.CameraWidget - INFO - Camera stream started successfully
+2025-05-31 14:49:37,767 - FaceAttend.AttendanceWindow - INFO - Recognition started
+2025-05-31 14:49:47,235 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 82.75862068965517
+2025-05-31 14:49:47,235 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 82.75862068965517
+2025-05-31 14:49:47,258 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 83.90804597701148
+2025-05-31 14:49:47,258 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 83.90804597701148
+2025-05-31 14:49:47,265 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 85.05747126436782
+2025-05-31 14:49:47,265 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 85.05747126436782
+2025-05-31 14:49:47,286 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 86.20689655172413
+2025-05-31 14:49:47,286 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 86.20689655172413
+2025-05-31 14:49:47,310 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 89.65517241379311
+2025-05-31 14:49:47,310 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 89.65517241379311
+2025-05-31 14:49:47,311 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 90.80459770114942
+2025-05-31 14:49:47,311 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 90.80459770114942
+2025-05-31 14:49:47,336 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 93.10344827586206
+2025-05-31 14:49:47,336 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 93.10344827586206
+2025-05-31 14:49:47,337 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 94.2528735632184
+2025-05-31 14:49:47,337 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 94.2528735632184
+2025-05-31 14:49:47,358 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 97.12643678160919
+2025-05-31 14:49:47,358 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 97.12643678160919
+2025-05-31 14:49:47,383 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 95.97701149425288
+2025-05-31 14:49:47,383 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 95.97701149425288
+2025-05-31 14:49:47,410 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 98.27586206896552
+2025-05-31 14:49:47,410 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 98.27586206896552
+2025-05-31 14:49:47,437 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 98.85057471264368
+2025-05-31 14:49:47,437 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 98.85057471264368
+2025-05-31 14:49:47,490 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 99.42528735632183
+2025-05-31 14:49:47,490 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 99.42528735632183
+2025-05-31 14:49:47,820 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 100.0
+2025-05-31 14:49:47,820 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 100.0
+2025-05-31 14:49:47,846 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 104.02298850574712
+2025-05-31 14:49:47,846 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 104.02298850574712
+2025-05-31 14:49:47,958 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 104.59770114942529
+2025-05-31 14:49:47,958 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 104.59770114942529
+2025-05-31 14:49:48,011 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 105.74712643678161
+2025-05-31 14:49:48,011 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 105.74712643678161
+2025-05-31 14:49:48,033 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 105.74712643678161
+2025-05-31 14:49:48,033 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 105.74712643678161
+2025-05-31 14:49:48,035 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 106.32183908045977
+2025-05-31 14:49:48,035 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 106.32183908045977
+2025-05-31 14:49:48,058 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 107.47126436781609
+2025-05-31 14:49:48,059 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 107.47126436781609
+2025-05-31 14:49:48,085 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 107.47126436781609
+2025-05-31 14:49:48,085 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 107.47126436781609
+2025-05-31 14:49:48,164 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 108.04597701149424
+2025-05-31 14:49:48,164 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 108.04597701149424
+2025-05-31 14:49:48,785 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 109.19540229885058
+2025-05-31 14:49:48,785 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 109.19540229885058
+2025-05-31 14:49:48,823 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 109.19540229885058
+2025-05-31 14:49:48,823 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 109.19540229885058
+2025-05-31 14:49:48,824 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 109.77011494252875
+2025-05-31 14:49:48,824 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 109.77011494252875
+2025-05-31 14:49:48,828 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 110.91954022988506
+2025-05-31 14:49:48,828 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 110.91954022988506
+2025-05-31 14:49:48,853 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 112.06896551724138
+2025-05-31 14:49:48,853 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 112.06896551724138
+2025-05-31 14:49:48,877 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 112.06896551724138
+2025-05-31 14:49:48,877 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 112.06896551724138
+2025-05-31 14:49:48,898 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 112.64367816091954
+2025-05-31 14:49:48,898 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 112.64367816091954
+2025-05-31 14:49:48,899 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 114.36781609195403
+2025-05-31 14:49:48,899 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 114.36781609195403
+2025-05-31 14:49:48,927 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 115.51724137931035
+2025-05-31 14:49:48,927 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 115.51724137931035
+2025-05-31 14:49:48,952 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 115.51724137931035
+2025-05-31 14:49:48,952 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 115.51724137931035
+2025-05-31 14:49:49,120 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 116.66666666666666
+2025-05-31 14:49:49,120 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 116.66666666666666
+2025-05-31 14:49:49,148 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 117.24137931034483
+2025-05-31 14:49:49,148 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 117.24137931034483
+2025-05-31 14:49:49,149 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 117.81609195402298
+2025-05-31 14:49:49,149 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 117.81609195402298
+2025-05-31 14:49:49,482 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 118.39080459770115
+2025-05-31 14:49:49,482 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 118.39080459770115
+2025-05-31 14:49:49,511 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 121.26436781609196
+2025-05-31 14:49:49,511 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 121.26436781609196
+2025-05-31 14:49:49,535 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 123.5632183908046
+2025-05-31 14:49:49,535 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 123.5632183908046
+2025-05-31 14:49:49,557 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 127.01149425287356
+2025-05-31 14:49:49,557 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 127.01149425287356
+2025-05-31 14:49:49,578 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 127.58620689655173
+2025-05-31 14:49:49,578 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 127.58620689655173
+2025-05-31 14:49:49,607 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 128.73563218390802
+2025-05-31 14:49:49,607 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 128.73563218390802
+2025-05-31 14:49:49,847 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 129.88505747126436
+2025-05-31 14:49:49,847 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 129.88505747126436
+2025-05-31 14:49:49,870 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 131.0344827586207
+2025-05-31 14:49:49,870 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 131.0344827586207
+2025-05-31 14:49:49,870 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 132.18390804597703
+2025-05-31 14:49:49,870 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 132.18390804597703
+2025-05-31 14:49:49,890 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 133.9080459770115
+2025-05-31 14:49:49,890 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 133.9080459770115
+2025-05-31 14:49:49,913 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 137.9310344827586
+2025-05-31 14:49:49,913 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 137.9310344827586
+2025-05-31 14:49:49,941 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 139.08045977011494
+2025-05-31 14:49:49,941 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 139.08045977011494
+2025-05-31 14:49:49,962 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 138.5057471264368
+2025-05-31 14:49:49,962 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 138.5057471264368
+2025-05-31 14:49:49,988 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 140.22988505747128
+2025-05-31 14:49:49,988 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 140.22988505747128
+2025-05-31 14:49:50,324 - FaceAttend.AttendanceLogger - INFO - Created new daily log file: attendance_logs/2025-05-31.csv
+2025-05-31 14:49:50,324 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 125.01
+2025-05-31 14:49:50,328 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 125.01)
+2025-05-31 14:49:50,536 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 140.80459770114942
+2025-05-31 14:49:50,536 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 140.80459770114942
+2025-05-31 14:49:50,558 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 141.95402298850576
+2025-05-31 14:49:50,558 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 141.95402298850576
+2025-05-31 14:49:50,559 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 141.95402298850576
+2025-05-31 14:49:50,559 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 141.95402298850576
+2025-05-31 14:49:50,583 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 143.67816091954023
+2025-05-31 14:49:50,583 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 143.67816091954023
+2025-05-31 14:49:50,586 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 144.25287356321837
+2025-05-31 14:49:50,586 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 144.25287356321837
+2025-05-31 14:49:50,610 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 145.97701149425288
+2025-05-31 14:49:50,610 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 145.97701149425288
+2025-05-31 14:49:50,635 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 146.55172413793105
+2025-05-31 14:49:50,636 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 146.55172413793105
+2025-05-31 14:49:50,657 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 147.1264367816092
+2025-05-31 14:49:50,657 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 147.1264367816092
+2025-05-31 14:49:50,660 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 147.70114942528735
+2025-05-31 14:49:50,660 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 147.70114942528735
+2025-05-31 14:49:50,683 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 146.55172413793105
+2025-05-31 14:49:50,683 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 146.55172413793105
+2025-05-31 14:49:51,374 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 126.67
+2025-05-31 14:49:51,375 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 126.67)
+2025-05-31 14:49:52,423 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 128.56
+2025-05-31 14:49:52,437 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 128.56)
+2025-05-31 14:49:53,482 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 126.92
+2025-05-31 14:49:53,482 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 126.92)
+2025-05-31 14:49:54,579 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 125.04
+2025-05-31 14:49:54,579 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 125.04)
+2025-05-31 14:49:54,725 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 146.55172413793105
+2025-05-31 14:49:54,725 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 146.55172413793105
+2025-05-31 14:49:54,750 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 144.82758620689657
+2025-05-31 14:49:54,750 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 144.82758620689657
+2025-05-31 14:49:54,776 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 143.67816091954023
+2025-05-31 14:49:54,776 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 143.67816091954023
+2025-05-31 14:49:54,796 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 141.95402298850576
+2025-05-31 14:49:54,797 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 141.95402298850576
+2025-05-31 14:49:54,821 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 141.3793103448276
+2025-05-31 14:49:54,821 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 141.3793103448276
+2025-05-31 14:49:55,621 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 126.38
+2025-05-31 14:49:55,621 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 126.38)
+2025-05-31 14:49:56,029 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 140.22988505747128
+2025-05-31 14:49:56,029 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 140.22988505747128
+2025-05-31 14:49:56,030 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 140.22988505747128
+2025-05-31 14:49:56,030 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 140.22988505747128
+2025-05-31 14:49:56,055 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 137.9310344827586
+2025-05-31 14:49:56,055 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 137.9310344827586
+2025-05-31 14:49:56,082 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 135.632183908046
+2025-05-31 14:49:56,082 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 135.632183908046
+2025-05-31 14:49:56,107 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 133.33333333333334
+2025-05-31 14:49:56,107 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 133.33333333333334
+2025-05-31 14:49:56,129 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 132.75862068965517
+2025-05-31 14:49:56,129 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 132.75862068965517
+2025-05-31 14:49:56,131 - FaceAttend.LBPHRecognizer - INFO - Confidence threshold updated to 132.18390804597703
+2025-05-31 14:49:56,131 - FaceAttend.RealtimeRecognizer - INFO - Confidence threshold updated to 132.18390804597703
+2025-05-31 14:49:56,676 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 126.20
+2025-05-31 14:49:56,676 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 126.20)
+2025-05-31 14:49:57,827 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 129.41
+2025-05-31 14:49:57,829 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 129.41)
+2025-05-31 14:49:58,830 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 131.96
+2025-05-31 14:49:58,845 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 131.96)
+2025-05-31 14:49:59,906 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 128.02
+2025-05-31 14:49:59,906 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 128.02)
+2025-05-31 14:50:00,984 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 128.17
+2025-05-31 14:50:00,984 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 128.17)
+2025-05-31 14:50:02,033 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 127.20
+2025-05-31 14:50:02,033 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 127.20)
+2025-05-31 14:50:03,087 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 128.26
+2025-05-31 14:50:03,087 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 128.26)
+2025-05-31 14:50:05,410 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 14:50:05,415 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 14:50:05,415 - FaceAttend.RealtimeRecognizer - INFO - Real-time recognition stopped
+2025-05-31 14:50:05,416 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 14:50:07,417 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 14:50:07,533 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 14:50:07,536 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 14:50:07,536 - FaceAttend.AttendanceWindow - INFO - Recognition stopped
+2025-05-31 14:50:07,572 - FaceAttend.AttendanceLogger - INFO - Logged attendance for Khoi (ID: 123456) with confidence 128.53
+2025-05-31 14:50:07,591 - FaceAttend.RealtimeRecognizer - INFO - Recognition successful: Khoi (confidence: 128.53)
+2025-05-31 14:50:07,593 - FaceAttend.RealtimeRecognizer - INFO - Recognition loop ended
+2025-05-31 14:50:11,666 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 14:50:11,667 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 14:50:11,667 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 14:50:11,667 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 14:50:11,679 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 14:50:11,685 - FaceAttend.AttendanceWindow - INFO - Attendance window closed
+2025-05-31 14:50:13,543 - __main__ - INFO - Application closing
+2025-05-31 14:50:13,544 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 14:50:13,544 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 14:50:13,544 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 14:50:13,544 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 14:50:13,550 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 14:50:13,566 - __main__ - INFO - Application shutdown
+2025-05-31 14:50:13,596 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 14:50:13,596 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 14:50:13,596 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 14:50:13,596 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 14:50:13,596 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 14:50:13,596 - FaceAttend.CameraManager - INFO - Camera resources released

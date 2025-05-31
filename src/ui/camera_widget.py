@@ -218,13 +218,23 @@ class CameraWidget(ttk.Frame):
     
     def set_frame_callback(self, callback: Callable[[np.ndarray], Optional[np.ndarray]]):
         """
-        Set a callback function to process each frame
+        Set a frame callback function
         
         Args:
             callback: Function that takes a frame and optionally returns a processed frame
         """
         self.frame_callback = callback
-        self.logger.info("Frame callback set")
+        self.logger.debug("Frame callback set")
+    
+    def update_frame(self, frame: np.ndarray):
+        """
+        Update the display with an external frame
+        
+        Args:
+            frame: Frame to display
+        """
+        if frame is not None:
+            self.display_frame(frame)
     
     def capture_image(self) -> Optional[np.ndarray]:
         """

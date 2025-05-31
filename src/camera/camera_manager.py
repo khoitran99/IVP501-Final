@@ -112,6 +112,19 @@ class CameraManager:
             self.logger.error(f"Error capturing frame: {str(e)}")
             return None
     
+    def get_frame(self) -> Tuple[bool, Optional[np.ndarray]]:
+        """
+        Get a frame from the camera (OpenCV-style interface)
+        
+        Returns:
+            Tuple of (success, frame) like cv2.VideoCapture.read()
+        """
+        frame = self.capture_frame()
+        if frame is not None:
+            return True, frame
+        else:
+            return False, None
+    
     def start_recording(self, frame_callback: Optional[Callable] = None):
         """
         Start continuous frame capture in a separate thread
@@ -242,6 +255,10 @@ class CameraManager:
             self.cap = None
         
         self.logger.info("Camera resources released")
+    
+    def release_camera(self):
+        """Alias for release() method for compatibility"""
+        self.release()
     
     def __del__(self):
         """Destructor to ensure camera is properly released"""

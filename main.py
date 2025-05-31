@@ -19,8 +19,9 @@ try:
     from src.ui.camera_widget import CameraWidget
     from src.ui.registration_window import open_registration_window
     from src.camera.camera_manager import test_camera
-    from src.utils.logger import setup_logger
+    from src.utils.logger import setup_logger, get_module_logger
     from src.storage.face_storage import FaceStorage
+    from src.ui.attendance_window import AttendanceWindow
 except ImportError as e:
     print(f"Import error: {e}")
     print("Please make sure all modules are properly installed")
@@ -171,28 +172,47 @@ class FaceAttendApp:
         )
         camera_btn.grid(row=1, column=1, padx=10, pady=10)
         
-        # Info section - Updated for Phase 2
+        # Info section - Updated for Phase 3
         info_frame = ttk.LabelFrame(home_frame, text="System Status", padding=15)
         info_frame.pack(pady=20, padx=40, fill=tk.X)
         
         # Get storage stats
         stats = self.face_storage.get_storage_stats()
         
+        # Check recognition model status
+        try:
+            from src.recognition.lbph_recognizer import LBPHRecognizer
+            recognizer = LBPHRecognizer()
+            model_info = recognizer.get_model_info()
+            model_trained = model_info.get('is_trained', False)
+            users_in_model = model_info.get('users_count', 0)
+        except Exception:
+            model_trained = False
+            users_in_model = 0
+        
         info_text = f"""
-Phase 2 Implementation Complete ✓
+Phase 3 Implementation Complete ✓
 • Face registration system ✓
-• Face detection with Haar Cascades ✓
+• Face detection with Haar Cascades ✓  
 • Image preprocessing pipeline ✓
 • Face image storage system ✓
+• LBPH recognition engine ✓
+• Real-time attendance capture ✓
+• Attendance logging system ✓
 
 System Statistics:
 • Total registered users: {stats.get('total_users', 0)}
 • Total face images: {stats.get('total_images', 0)}
 • Storage size: {stats.get('total_size_mb', 0):.1f} MB
+• Recognition model: {'Trained' if model_trained else 'Not trained'}
+• Users in model: {users_in_model}
+
+Ready for Use:
+• Face registration ✓
+• Real-time attendance capture ✓
 
 Coming in Future Phases:
-• Face recognition (Phase 3)  
-• Attendance logging (Phase 4)
+• Attendance log viewing (Phase 4)
 • Performance optimization (Phase 5)
         """
         
@@ -268,17 +288,22 @@ Coming in Future Phases:
             self.logger.error(f"Error refreshing home tab: {str(e)}")
     
     def open_attendance_screen(self):
-        """Open attendance capture screen (placeholder for Phase 3)"""
-        self.status_var.set("Attendance Capture - Feature coming in Phase 3")
-        messagebox.showinfo(
-            "Feature Coming Soon", 
-            "Attendance capture will be implemented in Phase 3.\n\n"
-            "This will include:\n"
-            "• Real-time face recognition\n"
-            "• Automatic attendance marking\n"
-            "• LBPH recognition engine\n"
-            "• Confidence threshold management"
-        )
+        """Open attendance capture screen (Phase 3 implementation)"""
+        self.status_var.set("Opening attendance capture window...")
+        
+        try:
+            # Open attendance window
+            if not hasattr(self, 'attendance_window') or not self.attendance_window.is_window_open:
+                self.attendance_window = AttendanceWindow(parent=self.root)
+            
+            self.attendance_window.show_window()
+            self.status_var.set("Attendance capture window opened")
+            self.logger.info("Attendance capture window opened")
+            
+        except Exception as e:
+            self.logger.error(f"Failed to open attendance window: {str(e)}")
+            messagebox.showerror("Error", f"Failed to open attendance window: {str(e)}")
+            self.status_var.set("Error opening attendance window")
     
     def open_logs_screen(self):
         """Open attendance logs screen (placeholder for Phase 4)"""

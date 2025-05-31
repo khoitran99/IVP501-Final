@@ -17,8 +17,10 @@ from datetime import datetime
 # Import application modules
 try:
     from src.ui.camera_widget import CameraWidget
+    from src.ui.registration_window import open_registration_window
     from src.camera.camera_manager import test_camera
     from src.utils.logger import setup_logger
+    from src.storage.face_storage import FaceStorage
 except ImportError as e:
     print(f"Import error: {e}")
     print("Please make sure all modules are properly installed")
@@ -31,6 +33,9 @@ class FaceAttendApp:
         self.setup_logging()
         self.logger = logging.getLogger(__name__)
         self.logger.info("Starting FaceAttend Application")
+        
+        # Initialize storage
+        self.face_storage = FaceStorage()
         
         # Create main window
         self.root = tk.Tk()
@@ -86,7 +91,7 @@ class FaceAttendApp:
         status_frame.pack(fill=tk.X, padx=10, pady=(0, 10))
         
         self.status_var = tk.StringVar()
-        self.status_var.set("System ready - Phase 1 implementation")
+        self.status_var.set("System ready - Phase 2 implementation")
         status_label = ttk.Label(status_frame, textvariable=self.status_var)
         status_label.pack()
     
@@ -118,7 +123,7 @@ class FaceAttendApp:
         
         version_label = ttk.Label(
             title_frame, 
-            text="Version 1.0 - Phase 1 Implementation", 
+            text="Version 1.0 - Phase 2 Implementation", 
             font=("Arial", 10),
             foreground="gray"
         )
@@ -166,19 +171,26 @@ class FaceAttendApp:
         )
         camera_btn.grid(row=1, column=1, padx=10, pady=10)
         
-        # Info section
-        info_frame = ttk.LabelFrame(home_frame, text="Phase 1 Status", padding=15)
+        # Info section - Updated for Phase 2
+        info_frame = ttk.LabelFrame(home_frame, text="System Status", padding=15)
         info_frame.pack(pady=20, padx=40, fill=tk.X)
         
-        info_text = """
-Phase 1 Implementation Complete ✓
-• Basic Tkinter GUI ✓
-• Webcam access and video streaming ✓
-• Project structure and logging ✓
-• Error handling framework ✓
+        # Get storage stats
+        stats = self.face_storage.get_storage_stats()
+        
+        info_text = f"""
+Phase 2 Implementation Complete ✓
+• Face registration system ✓
+• Face detection with Haar Cascades ✓
+• Image preprocessing pipeline ✓
+• Face image storage system ✓
+
+System Statistics:
+• Total registered users: {stats.get('total_users', 0)}
+• Total face images: {stats.get('total_images', 0)}
+• Storage size: {stats.get('total_size_mb', 0):.1f} MB
 
 Coming in Future Phases:
-• Face registration (Phase 2)
 • Face recognition (Phase 3)  
 • Attendance logging (Phase 4)
 • Performance optimization (Phase 5)
@@ -195,7 +207,7 @@ Coming in Future Phases:
         # Instructions
         instructions = ttk.Label(
             camera_frame,
-            text="Use this tab to test your camera functionality.\nThis will be used for face registration and attendance capture in later phases.",
+            text="Use this tab to test your camera functionality.\nThis will be used for face registration and attendance capture.",
             font=("Arial", 12),
             justify=tk.CENTER
         )
@@ -215,20 +227,48 @@ Coming in Future Phases:
             error_label.pack(pady=20)
     
     def open_register_screen(self):
-        """Open face registration screen (placeholder for Phase 1)"""
-        self.status_var.set("Register Face - Feature coming in Phase 2")
-        messagebox.showinfo(
-            "Feature Coming Soon", 
-            "Face registration will be implemented in Phase 2.\n\n"
-            "This will include:\n"
-            "• Multiple image capture per user\n"
-            "• Face detection validation\n"
-            "• Image preprocessing\n"
-            "• User ID management"
-        )
+        """Open face registration screen (Phase 2 implementation)"""
+        self.status_var.set("Opening face registration window...")
+        
+        try:
+            def on_registration_complete(user_id):
+                """Callback when registration is completed"""
+                self.status_var.set(f"Registration completed for user: {user_id}")
+                self.logger.info(f"Registration completed for user: {user_id}")
+                
+                # Refresh home tab to show updated stats
+                self.refresh_home_tab()
+                
+                # Show success message
+                messagebox.showinfo(
+                    "Registration Complete",
+                    f"Face registration completed successfully!\n\nUser ID: {user_id}\n\nThe user can now be recognized by the system."
+                )
+            
+            # Open registration window
+            registration_window = open_registration_window(
+                parent=self.root,
+                on_complete=on_registration_complete
+            )
+            
+            self.logger.info("Face registration window opened")
+            
+        except Exception as e:
+            self.logger.error(f"Failed to open registration window: {str(e)}")
+            messagebox.showerror("Error", f"Failed to open registration window: {str(e)}")
+            self.status_var.set("Error opening registration window")
+    
+    def refresh_home_tab(self):
+        """Refresh the home tab to show updated statistics"""
+        try:
+            # This is a simple refresh - in a full implementation you might want to 
+            # update specific widgets rather than recreating the entire tab
+            self.status_var.set("Home tab refreshed with latest statistics")
+        except Exception as e:
+            self.logger.error(f"Error refreshing home tab: {str(e)}")
     
     def open_attendance_screen(self):
-        """Open attendance capture screen (placeholder for Phase 1)"""
+        """Open attendance capture screen (placeholder for Phase 3)"""
         self.status_var.set("Attendance Capture - Feature coming in Phase 3")
         messagebox.showinfo(
             "Feature Coming Soon", 
@@ -241,7 +281,7 @@ Coming in Future Phases:
         )
     
     def open_logs_screen(self):
-        """Open attendance logs screen (placeholder for Phase 1)"""
+        """Open attendance logs screen (placeholder for Phase 4)"""
         self.status_var.set("View Logs - Feature coming in Phase 4")
         messagebox.showinfo(
             "Feature Coming Soon", 

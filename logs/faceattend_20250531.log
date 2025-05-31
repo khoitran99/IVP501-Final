@@ -32,3 +32,265 @@
 2025-05-31 09:11:20,475 - FaceAttend.CameraManager - INFO - Releasing camera resources
 2025-05-31 09:11:20,475 - FaceAttend.CameraManager - INFO - Camera resources released
 2025-05-31 09:11:24,631 - __main__ - INFO - Camera test successful
+2025-05-31 09:27:57,157 - __main__ - INFO - Starting FaceAttend Application
+2025-05-31 09:27:57,158 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 09:27:57,158 - FaceAttend.FaceStorage - INFO - No existing user data found, starting fresh
+2025-05-31 09:27:57,158 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 09:27:57,509 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 09:27:57,526 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 09:27:57,526 - __main__ - INFO - Application started successfully
+2025-05-31 09:28:06,778 - FaceAttend.FaceDetector - INFO - Haar Cascade classifiers loaded successfully
+2025-05-31 09:28:06,778 - FaceAttend.FaceDetector - INFO - FaceDetector initialized with scale_factor=1.1, min_neighbors=5, min_size=(30, 30)
+2025-05-31 09:28:06,778 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 09:28:06,779 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 09:28:06,779 - FaceAttend.FaceStorage - INFO - No existing user data found, starting fresh
+2025-05-31 09:28:06,779 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 09:28:06,807 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 09:28:06,810 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 09:28:06,811 - FaceAttend.CameraWidget - INFO - Frame callback set
+2025-05-31 09:28:06,812 - FaceAttend.RegistrationWindow - INFO - Registration window initialized
+2025-05-31 09:28:06,812 - __main__ - INFO - Face registration window opened
+2025-05-31 09:28:19,655 - FaceAttend.FaceStorage - INFO - Created new user: khoi (ID: 123)
+2025-05-31 09:28:19,655 - FaceAttend.CameraWidget - INFO - Starting camera stream
+2025-05-31 09:28:19,655 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 09:28:21,978 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 09:28:21,983 - FaceAttend.CameraWidget - INFO - Camera stream started successfully
+2025-05-31 09:28:21,983 - FaceAttend.RegistrationWindow - INFO - Started registration for user: khoi (ID: 123)
+2025-05-31 09:28:22,301 - FaceAttend.RegistrationWindow - INFO - Captured image 1 of 8
+2025-05-31 09:28:24,300 - FaceAttend.RegistrationWindow - INFO - Captured image 2 of 8
+2025-05-31 09:28:26,339 - FaceAttend.RegistrationWindow - INFO - Captured image 3 of 8
+2025-05-31 09:28:28,368 - FaceAttend.RegistrationWindow - INFO - Captured image 4 of 8
+2025-05-31 09:28:30,418 - FaceAttend.RegistrationWindow - INFO - Captured image 5 of 8
+2025-05-31 09:28:32,643 - FaceAttend.RegistrationWindow - INFO - Captured image 6 of 8
+2025-05-31 09:28:34,706 - FaceAttend.RegistrationWindow - INFO - Captured image 7 of 8
+2025-05-31 09:28:36,740 - FaceAttend.RegistrationWindow - INFO - Captured image 8 of 8
+2025-05-31 09:29:45,474 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:29:47,475 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:29:47,579 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:29:47,582 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:29:50,016 - FaceAttend.CameraWidget - INFO - Starting camera stream
+2025-05-31 09:29:50,016 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 09:29:51,803 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 09:29:51,804 - FaceAttend.CameraWidget - INFO - Camera stream started successfully
+2025-05-31 09:30:58,595 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:31:00,596 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:31:00,712 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:31:00,715 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:31:00,720 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:31:02,721 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:31:02,721 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:31:02,725 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:31:02,725 - FaceAttend.RegistrationWindow - INFO - Registration window closed
+2025-05-31 09:31:02,726 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 09:31:02,726 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:31:04,727 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:31:04,727 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:31:04,730 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:31:04,755 - FaceAttend.CameraWidget - ERROR - Error displaying frame: invalid command name ".!toplevel.!frame.!notebook.!frame2.!frame.!camerawidget.!label"
+2025-05-31 09:31:07,055 - FaceAttend.FaceDetector - INFO - Haar Cascade classifiers loaded successfully
+2025-05-31 09:31:07,055 - FaceAttend.FaceDetector - INFO - FaceDetector initialized with scale_factor=1.1, min_neighbors=5, min_size=(30, 30)
+2025-05-31 09:31:07,055 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 09:31:07,055 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 09:31:07,055 - FaceAttend.FaceStorage - INFO - Loaded user data for 1 users
+2025-05-31 09:31:07,055 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 09:31:07,080 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 09:31:07,083 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 09:31:07,083 - FaceAttend.CameraWidget - INFO - Frame callback set
+2025-05-31 09:31:07,084 - FaceAttend.RegistrationWindow - INFO - Registration window initialized
+2025-05-31 09:31:07,084 - __main__ - INFO - Face registration window opened
+2025-05-31 09:31:09,074 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:31:09,074 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:31:09,074 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:31:09,079 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:31:09,079 - FaceAttend.RegistrationWindow - INFO - Registration window closed
+2025-05-31 09:31:09,079 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 09:31:09,079 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:31:09,079 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:31:09,079 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:31:09,083 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:40:47,051 - __main__ - INFO - Starting FaceAttend Application
+2025-05-31 09:40:47,051 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 09:40:47,051 - FaceAttend.FaceStorage - INFO - Loaded user data for 1 users
+2025-05-31 09:40:47,051 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 09:40:47,263 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 09:40:47,271 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 09:40:47,272 - __main__ - INFO - Application started successfully
+2025-05-31 09:44:18,797 - __main__ - INFO - Application closing
+2025-05-31 09:44:18,800 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 09:44:18,801 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:44:18,801 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:44:18,801 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:44:18,814 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:44:18,828 - __main__ - INFO - Application shutdown
+2025-05-31 09:44:18,834 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:44:18,834 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:44:18,834 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:44:18,834 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:44:18,834 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:44:18,834 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:44:22,373 - __main__ - INFO - Application closing
+2025-05-31 09:44:22,374 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 09:44:22,374 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:44:22,374 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:44:22,374 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:44:22,381 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:44:22,398 - __main__ - INFO - Application shutdown
+2025-05-31 09:44:22,409 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:44:22,409 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:44:26,233 - __main__ - INFO - Starting FaceAttend Application
+2025-05-31 09:44:26,233 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 09:44:26,233 - FaceAttend.FaceStorage - INFO - Loaded user data for 1 users
+2025-05-31 09:44:26,233 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 09:44:26,432 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 09:44:26,439 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 09:44:26,439 - __main__ - INFO - Application started successfully
+2025-05-31 09:44:34,269 - FaceAttend.FaceDetector - INFO - Haar Cascade classifiers loaded successfully
+2025-05-31 09:44:34,270 - FaceAttend.FaceDetector - INFO - FaceDetector initialized with scale_factor=1.1, min_neighbors=5, min_size=(30, 30)
+2025-05-31 09:44:34,270 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 09:44:34,270 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 09:44:34,270 - FaceAttend.FaceStorage - INFO - Loaded user data for 1 users
+2025-05-31 09:44:34,270 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 09:44:34,297 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 09:44:34,299 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 09:44:34,300 - FaceAttend.CameraWidget - INFO - Frame callback set
+2025-05-31 09:44:34,303 - FaceAttend.RegistrationWindow - INFO - Registration window initialized
+2025-05-31 09:44:34,303 - __main__ - INFO - Face registration window opened
+2025-05-31 09:44:40,336 - FaceAttend.RegistrationWindow - INFO - Name validation: Raw value='Khoi', Stripped='Khoi', Length=4
+2025-05-31 09:44:40,337 - FaceAttend.FaceStorage - INFO - Created new user: Khoi (ID: 1234)
+2025-05-31 09:44:40,337 - FaceAttend.CameraWidget - INFO - Starting camera stream
+2025-05-31 09:44:40,337 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 09:44:42,124 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 09:44:42,125 - FaceAttend.CameraWidget - INFO - Camera stream started successfully
+2025-05-31 09:44:42,125 - FaceAttend.RegistrationWindow - INFO - Started registration for user: Khoi (ID: 1234)
+2025-05-31 09:44:42,273 - FaceAttend.RegistrationWindow - INFO - Captured image 1 of 8 (auto)
+2025-05-31 09:44:43,326 - FaceAttend.RegistrationWindow - INFO - Captured image 2 of 8 (auto)
+2025-05-31 09:44:44,475 - FaceAttend.RegistrationWindow - INFO - Captured image 3 of 8 (auto)
+2025-05-31 09:44:45,531 - FaceAttend.RegistrationWindow - INFO - Captured image 4 of 8 (auto)
+2025-05-31 09:44:46,588 - FaceAttend.RegistrationWindow - INFO - Captured image 5 of 8 (auto)
+2025-05-31 09:44:47,709 - FaceAttend.RegistrationWindow - INFO - Captured image 6 of 8 (auto)
+2025-05-31 09:44:48,733 - FaceAttend.RegistrationWindow - INFO - Captured image 7 of 8 (auto)
+2025-05-31 09:44:49,767 - FaceAttend.RegistrationWindow - INFO - Captured image 8 of 8 (auto)
+2025-05-31 09:46:36,752 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:46:36,768 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:46:36,875 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:46:36,878 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:47:09,372 - FaceAttend.CameraWidget - INFO - Starting camera stream
+2025-05-31 09:47:09,372 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 09:47:11,104 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 09:47:11,105 - FaceAttend.CameraWidget - INFO - Camera stream started successfully
+2025-05-31 09:47:25,740 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:47:27,741 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:47:27,854 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:47:27,857 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:47:27,857 - FaceAttend.RegistrationWindow - INFO - Registration window closed
+2025-05-31 09:47:27,858 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 09:47:27,858 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:47:29,859 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:47:29,860 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:47:29,869 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:47:29,891 - FaceAttend.CameraWidget - ERROR - Error displaying frame: invalid command name ".!toplevel.!frame.!notebook.!frame2.!frame.!camerawidget.!label"
+2025-05-31 09:47:31,610 - FaceAttend.FaceDetector - INFO - Haar Cascade classifiers loaded successfully
+2025-05-31 09:47:31,610 - FaceAttend.FaceDetector - INFO - FaceDetector initialized with scale_factor=1.1, min_neighbors=5, min_size=(30, 30)
+2025-05-31 09:47:31,610 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 09:47:31,611 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 09:47:31,611 - FaceAttend.FaceStorage - INFO - Loaded user data for 2 users
+2025-05-31 09:47:31,611 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 09:47:31,636 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 09:47:31,639 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 09:47:31,639 - FaceAttend.CameraWidget - INFO - Frame callback set
+2025-05-31 09:47:31,640 - FaceAttend.RegistrationWindow - INFO - Registration window initialized
+2025-05-31 09:47:31,640 - __main__ - INFO - Face registration window opened
+2025-05-31 09:47:36,991 - FaceAttend.RegistrationWindow - INFO - Name validation: Raw value='Khoi', Stripped='Khoi', Length=4
+2025-05-31 09:47:36,993 - FaceAttend.FaceStorage - INFO - Created new user: Khoi (ID: 12345665)
+2025-05-31 09:47:36,994 - FaceAttend.CameraWidget - INFO - Starting camera stream
+2025-05-31 09:47:36,994 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 09:47:38,738 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 09:47:38,739 - FaceAttend.CameraWidget - INFO - Camera stream started successfully
+2025-05-31 09:47:38,739 - FaceAttend.RegistrationWindow - INFO - Started registration for user: Khoi (ID: 12345665)
+2025-05-31 09:47:39,180 - FaceAttend.RegistrationWindow - INFO - Captured image 1 of 8 (auto)
+2025-05-31 09:47:40,202 - FaceAttend.RegistrationWindow - INFO - Captured image 2 of 8 (auto)
+2025-05-31 09:47:41,220 - FaceAttend.RegistrationWindow - INFO - Captured image 3 of 8 (auto)
+2025-05-31 09:47:42,241 - FaceAttend.RegistrationWindow - INFO - Captured image 4 of 8 (auto)
+2025-05-31 09:47:43,333 - FaceAttend.RegistrationWindow - INFO - Captured image 5 of 8 (auto)
+2025-05-31 09:47:44,351 - FaceAttend.RegistrationWindow - INFO - Captured image 6 of 8 (auto)
+2025-05-31 09:47:45,438 - FaceAttend.RegistrationWindow - INFO - Captured image 7 of 8 (auto)
+2025-05-31 09:47:46,454 - FaceAttend.RegistrationWindow - INFO - Captured image 8 of 8 (auto)
+2025-05-31 09:48:04,236 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:48:06,238 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:48:06,350 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:48:06,353 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:52:05,112 - __main__ - INFO - Starting FaceAttend Application
+2025-05-31 09:52:05,113 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 09:52:05,113 - FaceAttend.FaceStorage - INFO - Loaded user data for 3 users
+2025-05-31 09:52:05,113 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 09:52:05,348 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 09:52:05,357 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 09:52:05,357 - __main__ - INFO - Application started successfully
+2025-05-31 09:54:19,727 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:54:19,730 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:54:19,730 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:54:19,742 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:54:19,743 - FaceAttend.RegistrationWindow - INFO - Registration window closed
+2025-05-31 09:54:19,743 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 09:54:19,744 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:54:19,744 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:54:19,744 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:54:19,749 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:54:20,771 - __main__ - INFO - Application closing
+2025-05-31 09:54:20,771 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 09:54:20,771 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:54:20,771 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:54:20,771 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:54:20,777 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:54:20,788 - __main__ - INFO - Application shutdown
+2025-05-31 09:54:23,344 - FaceAttend.FaceDetector - INFO - Haar Cascade classifiers loaded successfully
+2025-05-31 09:54:23,344 - FaceAttend.FaceDetector - INFO - FaceDetector initialized with scale_factor=1.1, min_neighbors=5, min_size=(30, 30)
+2025-05-31 09:54:23,344 - FaceAttend.ImageProcessor - INFO - ImageProcessor initialized
+2025-05-31 09:54:23,345 - FaceAttend.FaceStorage - INFO - Storage directory structure initialized
+2025-05-31 09:54:23,345 - FaceAttend.FaceStorage - INFO - Loaded user data for 3 users
+2025-05-31 09:54:23,345 - FaceAttend.FaceStorage - INFO - FaceStorage initialized with base directory: faces
+2025-05-31 09:54:23,370 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 09:54:23,373 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 09:54:23,373 - FaceAttend.CameraWidget - INFO - Frame callback set
+2025-05-31 09:54:23,377 - FaceAttend.RegistrationWindow - INFO - Registration window initialized
+2025-05-31 09:54:23,377 - __main__ - INFO - Face registration window opened
+2025-05-31 09:54:31,376 - FaceAttend.RegistrationWindow - INFO - Name validation: Raw value='Khoi', Stripped='Khoi', Length=4
+2025-05-31 09:54:31,381 - FaceAttend.FaceStorage - INFO - Created new user: Khoi (ID: 123456)
+2025-05-31 09:54:31,382 - FaceAttend.CameraWidget - INFO - Starting camera stream
+2025-05-31 09:54:31,382 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 09:54:33,269 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 09:54:33,270 - FaceAttend.CameraWidget - INFO - Camera stream started successfully
+2025-05-31 09:54:33,270 - FaceAttend.RegistrationWindow - INFO - Started registration for user: Khoi (ID: 123456)
+2025-05-31 09:54:33,453 - FaceAttend.RegistrationWindow - INFO - Captured image 1 of 8 (auto)
+2025-05-31 09:54:34,477 - FaceAttend.RegistrationWindow - INFO - Captured image 2 of 8 (auto)
+2025-05-31 09:54:35,513 - FaceAttend.RegistrationWindow - INFO - Captured image 3 of 8 (auto)
+2025-05-31 09:54:36,782 - FaceAttend.RegistrationWindow - INFO - Captured image 4 of 8 (auto)
+2025-05-31 09:54:37,837 - FaceAttend.RegistrationWindow - INFO - Captured image 5 of 8 (auto)
+2025-05-31 09:54:38,818 - FaceAttend.RegistrationWindow - INFO - Captured image 6 of 8 (auto)
+2025-05-31 09:54:39,956 - FaceAttend.RegistrationWindow - INFO - Captured image 7 of 8 (auto)
+2025-05-31 09:54:40,960 - FaceAttend.RegistrationWindow - INFO - Captured image 8 of 8 (auto)
+2025-05-31 09:54:45,970 - FaceAttend.FaceStorage - INFO - Saved face image for user 123456: img_01.jpg
+2025-05-31 09:54:45,971 - FaceAttend.FaceStorage - INFO - Saved face image for user 123456: img_02.jpg
+2025-05-31 09:54:45,972 - FaceAttend.FaceStorage - INFO - Saved face image for user 123456: img_03.jpg
+2025-05-31 09:54:45,973 - FaceAttend.FaceStorage - INFO - Saved face image for user 123456: img_04.jpg
+2025-05-31 09:54:45,974 - FaceAttend.FaceStorage - INFO - Saved face image for user 123456: img_05.jpg
+2025-05-31 09:54:45,974 - FaceAttend.FaceStorage - INFO - Saved face image for user 123456: img_06.jpg
+2025-05-31 09:54:45,975 - FaceAttend.FaceStorage - INFO - Saved face image for user 123456: img_07.jpg
+2025-05-31 09:54:45,976 - FaceAttend.FaceStorage - INFO - Saved face image for user 123456: img_08.jpg
+2025-05-31 09:54:45,976 - FaceAttend.FaceStorage - INFO - Saved 8 out of 8 images for user 123456
+2025-05-31 09:54:45,977 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:54:47,978 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:54:48,121 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:54:48,124 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:54:48,124 - FaceAttend.RegistrationWindow - INFO - Registration completed for user 123456
+2025-05-31 09:54:54,572 - __main__ - INFO - Registration completed for user: 123456
+2025-05-31 09:54:59,275 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:54:59,276 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:54:59,276 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:54:59,284 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:54:59,284 - FaceAttend.RegistrationWindow - INFO - Registration window closed
+2025-05-31 09:54:59,285 - FaceAttend.CameraWidget - INFO - Cleaning up CameraWidget
+2025-05-31 09:54:59,285 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:54:59,285 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:54:59,285 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:54:59,291 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully

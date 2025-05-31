@@ -1,0 +1,1 @@
+# Recognition package for FaceAttend application 

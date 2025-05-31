@@ -1,0 +1,34 @@
+2025-05-31 08:51:52,301 - __main__ - INFO - Starting FaceAttend Application
+2025-05-31 08:51:52,550 - __main__ - INFO - Application started successfully
+2025-05-31 08:56:29,806 - __main__ - INFO - Starting FaceAttend Application
+2025-05-31 08:56:30,061 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 08:56:30,118 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 08:56:30,118 - __main__ - INFO - Application started successfully
+2025-05-31 09:10:26,790 - __main__ - INFO - Starting FaceAttend Application
+2025-05-31 09:10:26,994 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 09:10:27,002 - FaceAttend.CameraWidget - INFO - CameraWidget initialized with size 640x480
+2025-05-31 09:10:27,002 - __main__ - INFO - Application started successfully
+2025-05-31 09:10:45,787 - FaceAttend.CameraWidget - INFO - Starting camera stream
+2025-05-31 09:10:45,788 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 09:10:47,594 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 09:10:47,594 - FaceAttend.CameraWidget - INFO - Camera stream started successfully
+2025-05-31 09:10:51,346 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:10:53,346 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:10:54,239 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:10:54,242 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:10:58,933 - FaceAttend.CameraWidget - INFO - Starting camera stream
+2025-05-31 09:10:58,933 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 09:11:00,625 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 09:11:00,626 - FaceAttend.CameraWidget - INFO - Camera stream started successfully
+2025-05-31 09:11:09,578 - FaceAttend.CameraWidget - INFO - Stopping camera stream
+2025-05-31 09:11:11,580 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:11:11,671 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:11:11,675 - FaceAttend.CameraWidget - INFO - Camera stream stopped successfully
+2025-05-31 09:11:18,610 - FaceAttend.CameraManager - INFO - CameraManager initialized with camera index 0
+2025-05-31 09:11:18,610 - FaceAttend.CameraManager - INFO - Initializing camera...
+2025-05-31 09:11:20,378 - FaceAttend.CameraManager - INFO - Camera initialized successfully
+2025-05-31 09:11:20,412 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:11:20,475 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:11:20,475 - FaceAttend.CameraManager - INFO - Releasing camera resources
+2025-05-31 09:11:20,475 - FaceAttend.CameraManager - INFO - Camera resources released
+2025-05-31 09:11:24,631 - __main__ - INFO - Camera test successful

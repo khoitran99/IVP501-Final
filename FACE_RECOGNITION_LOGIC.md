@@ -30,10 +30,10 @@ The FaceAttend face recognition system uses a classical computer vision approach
 
 ### **Key Components:**
 
-- **Face Detection**: Haar Cascade classifiers
-- **Image Preprocessing**: CLAHE enhancement + normalization
-- **Recognition**: LBPH feature extraction and matching
-- **Attendance Logging**: Automated CSV logging with duplicate prevention
+- **Face Detection**: Haar Cascade classifiers -> Binh
+- **Image Preprocessing**: CLAHE enhancement + normalization -> Huy
+- **Recognition**: LBPH feature extraction and matching -> Quang
+- **Attendance Logging**: Automated CSV logging with duplicate prevention -> Bach
 
 ### **Recognition Flow:**
 

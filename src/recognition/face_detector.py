@@ -372,26 +372,7 @@ class FaceDetector:
         
         return result_frame
     
-    def update_parameters(self, scale_factor: Optional[float] = None, 
-                         min_neighbors: Optional[int] = None,
-                         min_size: Optional[Tuple[int, int]] = None):
-        """
-        Update detection parameters
-        
-        Args:
-            scale_factor: New scale factor
-            min_neighbors: New minimum neighbors
-            min_size: New minimum size
-        """
-        if scale_factor is not None:
-            self.scale_factor = scale_factor
-        if min_neighbors is not None:
-            self.min_neighbors = min_neighbors
-        if min_size is not None:
-            self.min_size = min_size
-        
-        self.logger.info(f"Updated parameters: scale_factor={self.scale_factor}, "
-                        f"min_neighbors={self.min_neighbors}, min_size={self.min_size}")
+    
 
 # Utility functions
 def test_face_detection(camera_index: int = 0) -> bool:

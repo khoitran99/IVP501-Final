@@ -13,7 +13,7 @@ from pathlib import Path
 from src.utils.logger import get_module_logger
 from src.utils.exceptions import FaceRecognitionError, ValidationError
 from src.storage.face_storage import FaceStorage
-from src.recognition.image_processor import ImageProcessor
+from .image_processor import ImageProcessor
 
 class LBPHRecognizer:
     """LBPH Face Recognition Engine"""

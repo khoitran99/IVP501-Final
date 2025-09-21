@@ -1,0 +1,29 @@
+{
+  "recognition_settings": {
+    "primary_method": "classical",
+    "fallback_method": "classical",
+    "confidence_threshold": {
+      "classical_lbph": 100.0,
+      "arcface_cosine": 0.3,
+      "hybrid_minimum": 0.5
+    },
+    "performance_monitoring": true,
+    "auto_method_selection": false,
+    "model_preferences": {
+      "detection_model": "mtcnn",
+      "recognition_model": "arcface_r100"
+    }
+  },
+  "preprocessing_settings": {
+    "face_alignment": true,
+    "quality_threshold": 0.7,
+    "min_face_size": 80,
+    "max_face_size": 300
+  },
+  "storage_settings": {
+    "save_aligned_faces": true,
+    "save_embeddings": true,
+    "embedding_format": "numpy",
+    "backup_original_images": true
+  }
+}

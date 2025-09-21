@@ -11,8 +11,8 @@ from threading import Thread, Event
 import time
 from typing import List, Optional, Callable
 from src.ui.camera_widget import CameraWidget
-from src.recognition.face_detector import FaceDetector
-from src.recognition.image_processor import ImageProcessor
+from src.recognition.classical.face_detector import FaceDetector
+from src.recognition.classical.image_processor import ImageProcessor
 from src.storage.face_storage import FaceStorage
 from src.utils.logger import get_module_logger
 from src.utils.exceptions import UIError, FaceDetectionError, StorageError

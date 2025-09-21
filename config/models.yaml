@@ -1,0 +1,22 @@
+models:
+  detection:
+    mtcnn:
+      url: "https://github.com/timesler/facenet-pytorch/releases/download/v2.2.9/20180402-114759-vggface2.pt"
+      file: "mtcnn_weights.pt"
+      sha256: "placeholder_hash"
+      description: "MTCNN face detection model"
+    
+  recognition:
+    arcface_r100:
+      url: "https://github.com/deepinsight/insightface/releases/download/v0.7/arcface_r100_v1.onnx"
+      file: "arcface_r100_v1.onnx"
+      sha256: "placeholder_hash"
+      feature_dim: 512
+      description: "ArcFace ResNet100 recognition model"
+      
+    arcface_mobilenet:
+      url: "https://github.com/deepinsight/insightface/releases/download/v0.7/arcface_mobilefacenet.onnx"
+      file: "arcface_mobilefacenet.onnx"
+      sha256: "placeholder_hash"
+      feature_dim: 128
+      description: "ArcFace MobileFaceNet recognition model"

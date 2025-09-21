@@ -1,0 +1,32 @@
+performance_thresholds:
+  accuracy:
+    classical_minimum: 0.85
+    deep_learning_target: 0.95
+    hybrid_target: 0.90
+    
+  speed:
+    max_processing_time_ms: 500
+    target_processing_time_ms: 200
+    real_time_threshold_ms: 100
+    
+  memory:
+    max_memory_usage_mb: 300
+    classical_memory_mb: 100
+    deep_learning_memory_mb: 250
+    
+  quality:
+    min_face_quality: 0.7
+    min_embedding_confidence: 0.5
+    max_false_positive_rate: 0.01
+    
+monitoring:
+  enable_performance_logging: true
+  log_recognition_attempts: true
+  benchmark_interval_minutes: 5
+  alert_on_threshold_breach: true
+  
+optimization:
+  auto_model_selection: false
+  fallback_on_failure: true
+  cache_embeddings: true
+  batch_processing: false

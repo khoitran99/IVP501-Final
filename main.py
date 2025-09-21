@@ -22,6 +22,7 @@ try:
     from src.utils.logger import setup_logger, get_module_logger
     from src.storage.face_storage import FaceStorage
     from src.ui.attendance_window import AttendanceWindow
+    from src.ui.recognition_settings_window import open_recognition_settings_window
 except ImportError as e:
     print(f"Import error: {e}")
     print("Please make sure all modules are properly installed")
@@ -172,6 +173,15 @@ class FaceAttendApp:
         )
         camera_btn.grid(row=1, column=1, padx=10, pady=10)
         
+        # Row 3 - Advanced features
+        settings_btn = ttk.Button(
+            button_frame,
+            text="⚙️ Recognition Settings",
+            command=self.open_recognition_settings,
+            width=25
+        )
+        settings_btn.grid(row=2, column=0, padx=10, pady=10)
+        
         # Info section - Updated for Phase 4
         info_frame = ttk.LabelFrame(home_frame, text="System Status", padding=15)
         info_frame.pack(pady=20, padx=40, fill=tk.X)
@@ -190,8 +200,21 @@ class FaceAttendApp:
             model_trained = False
             users_in_model = 0
         
+        # Check recognition factory status
+        factory_status = "Not Available"
+        classical_available = False
+        dl_available = False
+        try:
+            from src.recognition import FACTORY_AVAILABLE, CLASSICAL_AVAILABLE, DL_AVAILABLE
+            if FACTORY_AVAILABLE:
+                factory_status = "Available"
+                classical_available = CLASSICAL_AVAILABLE
+                dl_available = DL_AVAILABLE
+        except Exception:
+            pass
+        
         info_text = f"""
-Phase 4 Implementation Complete ✓
+Phase A Deep Learning Implementation Complete ✓
 • Face registration system ✓
 • Face detection with Haar Cascades ✓  
 • Image preprocessing pipeline ✓
@@ -202,24 +225,34 @@ Phase 4 Implementation Complete ✓
 • Attendance logs viewer ✓
 • CSV export functionality ✓
 • Statistical reporting ✓
+• Hybrid recognition factory ✓
+• Model selection UI ✓
 
 System Statistics:
 • Total registered users: {stats.get('total_users', 0)}
 • Total face images: {stats.get('total_images', 0)}
 • Storage size: {stats.get('total_size_mb', 0):.1f} MB
-• Recognition model: {'Trained' if model_trained else 'Not trained'}
+• Classical model: {'Trained' if model_trained else 'Not trained'}
 • Users in model: {users_in_model}
+
+Recognition Engine Status:
+• Recognition factory: {factory_status}
+• Classical LBPH: {'Available' if classical_available else 'Not Available'}
+• Deep Learning ArcFace: {'Available' if dl_available else 'Not Available'}
+• Hybrid support: {'Ready' if factory_status == 'Available' else 'Not Ready'}
 
 Ready for Use:
 • Face registration ✓
 • Real-time attendance capture ✓
 • Attendance logs viewing ✓
 • Data export and management ✓
+• Recognition engine selection ✓
 
-Coming in Future Phases:
-• Performance optimization (Phase 5)
-• Mac application packaging (Phase 6)
-• Final testing and delivery (Phase 7)
+Available Features:
+• Use ⚙️ Recognition Settings to configure engines
+• Switch between Classical and Deep Learning modes
+• Monitor real-time performance metrics
+• View comprehensive system status
         """
         
         info_label = ttk.Label(info_frame, text=info_text, justify=tk.LEFT)
@@ -355,6 +388,25 @@ Coming in Future Phases:
             self.status_var.set("Camera test failed")
             messagebox.showerror("Camera Error", error_msg)
             self.logger.error(error_msg)
+    
+    def open_recognition_settings(self):
+        """Open recognition settings window (Phase A/B implementation)"""
+        self.status_var.set("Opening recognition settings window...")
+        
+        try:
+            # Open recognition settings window
+            if not hasattr(self, 'recognition_settings_window') or not self.recognition_settings_window.is_window_open:
+                self.recognition_settings_window = open_recognition_settings_window(parent=self.root)
+            else:
+                self.recognition_settings_window.show_window()
+            
+            self.status_var.set("Recognition settings window opened")
+            self.logger.info("Recognition settings window opened")
+            
+        except Exception as e:
+            self.logger.error(f"Failed to open recognition settings window: {str(e)}")
+            messagebox.showerror("Error", f"Failed to open recognition settings window: {str(e)}")
+            self.status_var.set("Error opening recognition settings window")
     
     def on_closing(self):
         """Handle application closing"""

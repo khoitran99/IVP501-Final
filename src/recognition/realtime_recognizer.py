@@ -11,8 +11,8 @@ from datetime import datetime
 from typing import Dict, Optional, Callable, List, Tuple
 from src.utils.logger import get_module_logger
 from src.utils.exceptions import FaceRecognitionError, CameraError
-from src.recognition.face_detector import FaceDetector
-from src.recognition.lbph_recognizer import LBPHRecognizer
+from src.recognition.classical.face_detector import FaceDetector
+from src.recognition.classical.lbph_recognizer import LBPHRecognizer
 from src.storage.attendance_logger import AttendanceLogger
 from src.storage.face_storage import FaceStorage
 from src.camera.camera_manager import CameraManager

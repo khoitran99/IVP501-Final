@@ -30,7 +30,7 @@ class AttendanceWindow:
         self.parent = parent
         
         # Initialize components
-        self.realtime_recognizer = RealtimeRecognizer(confidence_threshold=80.0)
+        self.realtime_recognizer = RealtimeRecognizer(similarity_threshold=0.6)
         
         # Window state
         self.window = None
@@ -123,16 +123,16 @@ class AttendanceWindow:
                                               command=self._toggle_recognition)
             self.start_stop_button.grid(row=0, column=0, padx=(0, 10))
             
-            # Confidence threshold
-            ttk.Label(controls_frame, text="Confidence Threshold:").grid(row=0, column=1, sticky=tk.W)
-            self.threshold_scale = ttk.Scale(controls_frame, from_=50, to=150, 
+            # Similarity threshold
+            ttk.Label(controls_frame, text="Similarity Threshold:").grid(row=0, column=1, sticky=tk.W)
+            self.threshold_scale = ttk.Scale(controls_frame, from_=0.3, to=0.9, 
                                            orient=tk.HORIZONTAL, length=200,
                                            command=self._on_threshold_change)
-            self.threshold_scale.set(80)
+            self.threshold_scale.set(0.6)
             self.threshold_scale.grid(row=0, column=2, padx=(5, 0))
             
             # Threshold value label
-            self.threshold_value_label = ttk.Label(controls_frame, text="80.0")
+            self.threshold_value_label = ttk.Label(controls_frame, text="0.6")
             self.threshold_value_label.grid(row=0, column=3, padx=(5, 0))
             
             # Camera display
@@ -187,8 +187,8 @@ class AttendanceWindow:
                                        font=("Arial", 12), foreground="gray")
         self.user_name_label.grid(row=0, column=1, sticky=tk.W, padx=(10, 0))
         
-        # Confidence
-        ttk.Label(self.recognition_info_frame, text="Confidence:", font=("Arial", 9, "bold")).grid(row=1, column=0, sticky=tk.W)
+        # Similarity
+        ttk.Label(self.recognition_info_frame, text="Similarity:", font=("Arial", 9, "bold")).grid(row=1, column=0, sticky=tk.W)
         self.confidence_label = ttk.Label(self.recognition_info_frame, text="0.0", 
                                         font=("Arial", 11), foreground="gray")
         self.confidence_label.grid(row=1, column=1, sticky=tk.W, padx=(10, 0))
@@ -271,12 +271,12 @@ class AttendanceWindow:
             messagebox.showerror("Error", f"Recognition error: {str(e)}")
     
     def _on_threshold_change(self, value):
-        """Handle confidence threshold change"""
+        """Handle similarity threshold change"""
         threshold = float(value)
         if hasattr(self, 'threshold_value_label') and self.threshold_value_label:
-            self.threshold_value_label.configure(text=f"{threshold:.1f}")
+            self.threshold_value_label.configure(text=f"{threshold:.2f}")
         if self.realtime_recognizer:
-            self.realtime_recognizer.update_confidence_threshold(threshold)
+            self.realtime_recognizer.update_similarity_threshold(threshold)
     
     def _on_status_update(self, status: str):
         """Handle status updates from recognizer"""
@@ -291,10 +291,10 @@ class AttendanceWindow:
             # Update recognition info display
             if result.get('user_id'):
                 self.user_name_label.configure(text=result['name'], foreground="green")
-                self.confidence_label.configure(text=f"{result['confidence']:.1f}", foreground="green")
+                self.confidence_label.configure(text=f"{result['confidence']:.3f}", foreground="green")
             else:
                 self.user_name_label.configure(text="Unknown", foreground="red")
-                self.confidence_label.configure(text=f"{result.get('confidence', 0):.1f}", foreground="red")
+                self.confidence_label.configure(text=f"{result.get('confidence', 0):.3f}", foreground="red")
             
             self.faces_count_label.configure(text=str(result.get('faces_detected', 0)))
             
@@ -364,16 +364,23 @@ class AttendanceWindow:
                 return
             
             # Add header
-            self.attendance_listbox.insert(0, "Time     | Name            | Confidence")
+            self.attendance_listbox.insert(0, "Time     | Name            | Similarity")
             self.attendance_listbox.insert(1, "-" * 45)
             
             # Add attendance records
             for record in reversed(attendance_records[-20:]):  # Show last 20 records
                 time_str = record.get('time', 'Unknown')
                 name = record.get('name', 'Unknown')[:15]  # Truncate long names
-                confidence = record.get('confidence', '0.0')
+                similarity = record.get('confidence', '0.0')  # Note: still called 'confidence' in data
                 
-                line = f"{time_str} | {name:<15} | {confidence}"
+                # Format similarity score properly
+                try:
+                    similarity_val = float(similarity)
+                    similarity_str = f"{similarity_val:.3f}"
+                except:
+                    similarity_str = str(similarity)
+                
+                line = f"{time_str} | {name:<15} | {similarity_str}"
                 self.attendance_listbox.insert(tk.END, line)
             
             # Scroll to bottom

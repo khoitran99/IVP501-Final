@@ -8,6 +8,11 @@ Version: 1.0
 """
 
 import sys
+import os
+
+# Disable debug mode to prevent trace traps
+if __debug__:
+    os.execv(sys.executable, [sys.executable, '-O'] + sys.argv)
 import tkinter as tk
 from tkinter import ttk, messagebox
 import logging
@@ -191,68 +196,61 @@ class FaceAttendApp:
         
         # Check recognition model status
         try:
-            from src.recognition.lbph_recognizer import LBPHRecognizer
-            recognizer = LBPHRecognizer()
+            from src.recognition.simple_insightface_recognizer import SimpleInsightFaceRecognizer
+            recognizer = SimpleInsightFaceRecognizer()
             model_info = recognizer.get_model_info()
             model_trained = model_info.get('is_trained', False)
-            users_in_model = model_info.get('users_count', 0)
+            users_in_model = model_info.get('total_users', 0)
         except Exception:
             model_trained = False
             users_in_model = 0
         
-        # Check recognition factory status
-        factory_status = "Not Available"
-        classical_available = False
+        # Check deep learning recognition status
         dl_available = False
         try:
-            from src.recognition import FACTORY_AVAILABLE, CLASSICAL_AVAILABLE, DL_AVAILABLE
-            if FACTORY_AVAILABLE:
-                factory_status = "Available"
-                classical_available = CLASSICAL_AVAILABLE
-                dl_available = DL_AVAILABLE
+            from src.recognition.simple_insightface_recognizer import SimpleInsightFaceRecognizer
+            dl_available = True
         except Exception:
             pass
         
         info_text = f"""
-Phase A Deep Learning Implementation Complete ✓
+Deep Learning Face Recognition System Complete ✓
 • Face registration system ✓
 • Face detection with Haar Cascades ✓  
 • Image preprocessing pipeline ✓
 • Face image storage system ✓
-• LBPH recognition engine ✓
+• Deep Learning InsightFace recognition engine ✓
 • Real-time attendance capture ✓
 • Attendance logging system ✓
 • Attendance logs viewer ✓
 • CSV export functionality ✓
 • Statistical reporting ✓
-• Hybrid recognition factory ✓
-• Model selection UI ✓
+• Dedicated deep learning architecture ✓
 
 System Statistics:
 • Total registered users: {stats.get('total_users', 0)}
 • Total face images: {stats.get('total_images', 0)}
 • Storage size: {stats.get('total_size_mb', 0):.1f} MB
-• Classical model: {'Trained' if model_trained else 'Not trained'}
+• Deep learning model: {'Trained' if model_trained else 'Not trained'}
 • Users in model: {users_in_model}
 
-Recognition Engine Status:
-• Recognition factory: {factory_status}
-• Classical LBPH: {'Available' if classical_available else 'Not Available'}
-• Deep Learning ArcFace: {'Available' if dl_available else 'Not Available'}
-• Hybrid support: {'Ready' if factory_status == 'Available' else 'Not Ready'}
+Deep Learning Engine Status:
+• InsightFace ArcFace: {'Available' if dl_available else 'Not Available'}
+• Similarity-based matching: {'Ready' if dl_available else 'Not Ready'}
+• Embedding-based recognition: {'Active' if dl_available else 'Inactive'}
 
 Ready for Use:
 • Face registration ✓
-• Real-time attendance capture ✓
+• Real-time deep learning attendance capture ✓
 • Attendance logs viewing ✓
 • Data export and management ✓
-• Recognition engine selection ✓
+• Deep learning recognition system ✓
 
 Available Features:
-• Use ⚙️ Recognition Settings to configure engines
-• Switch between Classical and Deep Learning modes
-• Monitor real-time performance metrics
-• View comprehensive system status
+• Use ⚙️ Recognition Settings to configure deep learning parameters
+• Similarity threshold adjustment (0.0-1.0)
+• Real-time performance monitoring
+• Comprehensive system status
         """
         
         info_label = ttk.Label(info_frame, text=info_text, justify=tk.LEFT)

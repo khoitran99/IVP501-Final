@@ -1,14 +1,8 @@
 {
   "recognition_settings": {
-    "primary_method": "classical",
-    "fallback_method": "classical",
-    "confidence_threshold": {
-      "classical_lbph": 100.0,
-      "arcface_cosine": 0.3,
-      "hybrid_minimum": 0.5
-    },
+    "method": "deep_learning",
+    "similarity_threshold": 0.6,
     "performance_monitoring": true,
-    "auto_method_selection": false,
     "model_preferences": {
       "detection_model": "mtcnn",
       "recognition_model": "arcface_r100"

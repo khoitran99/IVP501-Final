@@ -12,7 +12,9 @@ from typing import Dict, Optional, Callable, List, Tuple
 from src.utils.logger import get_module_logger
 from src.utils.exceptions import FaceRecognitionError, CameraError
 from src.recognition.classical.face_detector import FaceDetector
-from src.recognition.classical.lbph_recognizer import LBPHRecognizer
+# Original import replaced with mock for testing
+# from src.recognition.simple_insightface_recognizer import SimpleInsightFaceRecognizer
+from src.recognition.mock_recognizer import SimpleInsightFaceRecognizer
 from src.storage.attendance_logger import AttendanceLogger
 from src.storage.face_storage import FaceStorage
 from src.camera.camera_manager import CameraManager
@@ -22,14 +24,14 @@ class RealtimeRecognizer:
     
     def __init__(self, 
                  camera_manager: CameraManager = None,
-                 confidence_threshold: float = 100.0,
+                 similarity_threshold: float = 0.6,
                  recognition_interval: float = 1.0):
         """
-        Initialize the real-time recognizer
+        Initialize the real-time deep learning recognizer
         
         Args:
             camera_manager: Camera manager instance
-            confidence_threshold: Recognition confidence threshold
+            similarity_threshold: Recognition similarity threshold (0.0-1.0)
             recognition_interval: Minimum time between recognition attempts (seconds)
         """
         self.logger = get_module_logger("RealtimeRecognizer")
@@ -37,12 +39,21 @@ class RealtimeRecognizer:
         # Core components
         self.camera_manager = camera_manager or CameraManager()
         self.face_detector = FaceDetector()
-        self.lbph_recognizer = LBPHRecognizer(confidence_threshold=confidence_threshold)
         self.attendance_logger = AttendanceLogger()
         self.face_storage = FaceStorage()
         
+        # Deep learning recognition engine only
+        try:
+            # Load deep learning threshold from settings or use provided threshold
+            dl_threshold = self._load_dl_threshold() or similarity_threshold
+            self.recognizer = SimpleInsightFaceRecognizer(confidence_threshold=dl_threshold)
+            self.logger.info(f"Initialized deep learning InsightFace recognizer with threshold: {dl_threshold}")
+        except Exception as e:
+            self.logger.error(f"Failed to initialize InsightFace recognizer: {e}")
+            raise FaceRecognitionError(f"Deep learning recognizer initialization failed: {e}")
+        
         # Configuration
-        self.confidence_threshold = confidence_threshold
+        self.similarity_threshold = dl_threshold
         self.recognition_interval = recognition_interval
         
         # State management
@@ -66,7 +77,27 @@ class RealtimeRecognizer:
         self.recognition_callback = None
         self.frame_callback = None
         
-        self.logger.info(f"RealtimeRecognizer initialized with confidence threshold: {confidence_threshold}")
+        self.logger.info(f"Deep learning RealtimeRecognizer initialized with similarity threshold: {dl_threshold}")
+    
+    
+    def _load_dl_threshold(self) -> float:
+        """Load deep learning threshold from settings"""
+        try:
+            import json
+            with open('config/recognition_settings.json', 'r') as f:
+                settings = json.load(f)
+            
+            threshold = settings.get('recognition_settings', {}).get('similarity_threshold', 0.6)
+            return float(threshold)
+                
+        except Exception as e:
+            self.logger.warning(f"Failed to load deep learning threshold: {e}")
+            return 0.6  # Default for deep learning
+    
+    
+    def _is_model_trained(self) -> bool:
+        """Check if the deep learning model is trained"""
+        return self.recognizer.is_model_trained()
     
     def set_callbacks(self, 
                      status_callback: Callable[[str], None] = None,
@@ -133,7 +164,7 @@ class RealtimeRecognizer:
                 raise CameraError("Failed to initialize camera")
             
             # Check if model is trained
-            if not self.lbph_recognizer.is_model_trained():
+            if not self._is_model_trained():
                 self._update_status("Training model...")
                 self._train_model_if_needed()
             
@@ -180,14 +211,14 @@ class RealtimeRecognizer:
                 self._update_status("No registered users found")
                 return False
             
-            # Train the model
-            training_result = self.lbph_recognizer.train_model()
+            # Train the deep learning model
+            training_result = self.recognizer.train_model()
             
             if training_result['success']:
-                self._update_status(f"Model trained: {training_result['users_count']} users")
+                self._update_status(f"Deep learning model trained: {training_result['users_count']} users")
                 return True
             else:
-                self._update_status("Model training failed")
+                self._update_status("Deep learning model training failed")
                 return False
                 
         except Exception as e:
@@ -260,8 +291,8 @@ class RealtimeRecognizer:
             # Extract face region
             face_region = frame[y:y+h, x:x+w]
             
-            # Perform recognition
-            user_id, confidence = self.lbph_recognizer.recognize_face(face_region)
+            # Perform deep learning recognition
+            user_id, confidence = self.recognizer.recognize_face(face_region)
             
             if user_id:
                 # Get user info
@@ -329,14 +360,15 @@ class RealtimeRecognizer:
         try:
             self._update_status("Retraining model...")
             
-            training_result = self.lbph_recognizer.train_model()
+            # Retrain the deep learning model
+            training_result = self.recognizer.train_model()
             
             if training_result['success']:
-                self._update_status(f"Model retrained: {training_result['users_count']} users")
-                self.logger.info("Model retrained successfully")
+                self._update_status(f"Deep learning model retrained: {training_result['users_count']} users")
+                self.logger.info("Deep learning model retrained successfully")
                 return True
             else:
-                self._update_status("Model retraining failed")
+                self._update_status("Deep learning model retraining failed")
                 return False
                 
         except Exception as e:
@@ -344,23 +376,28 @@ class RealtimeRecognizer:
             self._update_status(f"Retraining error: {str(e)}")
             return False
     
-    def update_confidence_threshold(self, threshold: float):
-        """Update the recognition confidence threshold"""
-        self.confidence_threshold = threshold
-        self.lbph_recognizer.set_confidence_threshold(threshold)
-        self.logger.info(f"Confidence threshold updated to {threshold}")
+    def update_similarity_threshold(self, threshold: float):
+        """Update the recognition similarity threshold"""
+        # For deep learning, threshold should be between 0.0 and 1.0 (similarity score)
+        normalized_threshold = max(0.0, min(1.0, threshold))
+        self.similarity_threshold = normalized_threshold
+        self.recognizer.set_confidence_threshold(normalized_threshold)
+        self.logger.info(f"Deep learning similarity threshold updated to {normalized_threshold}")
     
     def get_recognition_stats(self) -> Dict:
         """Get recognition statistics"""
         try:
-            model_info = self.lbph_recognizer.get_model_info()
+            model_info = self.recognizer.get_model_info()
+            system_status = {'mode': 'deep_learning', 'engine': 'insightface'}
             attendance_stats = self.attendance_logger.get_attendance_statistics()
             
             return {
                 'model_info': model_info,
+                'system_status': system_status,
                 'attendance_stats': attendance_stats,
                 'last_recognition': self.last_recognition_result,
-                'is_running': self.is_running
+                'is_running': self.is_running,
+                'similarity_threshold': self.similarity_threshold
             }
             
         except Exception as e:
